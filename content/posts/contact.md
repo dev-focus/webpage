@@ -8,4 +8,4 @@ tags = [
 ]
 +++
 
-<iframe src='https://nube.focusuy.org/apps/forms/s/46esd5JadscQyBBW9LLB8PBF' name='Cloud' width='95%' height='50'>
+<iframe src='https://nube.focusuy.org/apps/forms/s/46esd5JadscQyBBW9LLB8PBF' name='Cloud' width='95%' height='100'>
