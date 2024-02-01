@@ -6,4 +6,4 @@ content:
   image: "images/hero-image.png"
   button:
     label: "Let's talk"
-    url: "#"
+    url: "#contacto"

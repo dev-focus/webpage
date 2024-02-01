@@ -56,12 +56,11 @@ menus:
     - name: "Blog"
       url: "/blog"
       weight: 5
+      
+    - name: "Contacto"
+      url: "/contacto"
+      weight: 6
 
-  buttons:
-    - name: "Contáctanos"
-      url: "/#"
-      weight: 5
-      pre: "btn btn-primary text-light"
 
   footer:
     - name: "Inicio"
