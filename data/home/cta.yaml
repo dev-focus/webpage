@@ -2,6 +2,6 @@ enabled: true
 id: "cta"
 
 content:
-  title: "¡Empezemos!"
+  title: "¡Empecemos!"
   image: "images/hero-image.png"
 
