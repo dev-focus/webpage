@@ -10,7 +10,7 @@ summaryLength: 20
 
 params:
   title: "Focus"
-  description: "We specialize in providing services to desing websites, applications, build and maintain business for customers."
+  description: "Nos especializamos en investigaciones multimétodos para conocer la realidad social."
   images: 
     - "images/mvd.png"
 
@@ -58,7 +58,7 @@ menus:
       weight: 5
       
     - name: "Contacto"
-      url: "/contacto"
+      url: "/#contact"
       weight: 6
 
 

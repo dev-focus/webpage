@@ -1,15 +1,11 @@
 enabled: true
-id: "hero"
+id: "contact"
 
 content:
-  title: "Hacé **crecer** tu negocio"
+  title: "Estemos en contacto"
   text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Est faucibus tellus leo non pellentesque lorem vel. Arcu magna eros, potenti duis."
 
   buttonPrimary:
-    label: "Cómo trabajamos"
-    url: "#"
-
-  buttonSecondary:
-    label: "Coordinemos una reunión"
-    url: "#contact"
+    label: "Escribinos"
+    url: "https://nube.focusuy.org/apps/forms/s/46esd5JadscQyBBW9LLB8PBF"
 

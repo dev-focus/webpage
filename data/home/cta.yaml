@@ -2,8 +2,6 @@ enabled: true
 id: "cta"
 
 content:
-  title: "Start your business now!"
+  title: "¡Empezemos!"
   image: "images/hero-image.png"
-  button:
-    label: "Let's talk"
-    url: "#contacto"
+
