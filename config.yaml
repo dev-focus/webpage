@@ -1,4 +1,4 @@
-baseURL: ""
+baseURL: "https://focusuy.netlify.app/"
 theme: "up-business-theme"
 languageCode: "en-us"
 
@@ -32,7 +32,7 @@ params:
     
   contact:
     - "contacto@focusuy.org"
-    - "xxx.yyy.zzz"
+    - "(+598) 99 316 063"
 
   
 menus:
@@ -53,13 +53,13 @@ menus:
       url: "/#brands"
       weight: 4
 
-    - name: "Blog"
-      url: "/blog"
-      weight: 5
-      
+    # - name: "Blog"
+    #   url: "/blog"
+    #   weight: 5
+    #   
     - name: "Contacto"
       url: "/#contact"
-      weight: 6
+      weight: 5
 
 
   footer:
@@ -79,9 +79,9 @@ menus:
       url: "/#"
       weight: 4
 
-    - name: "Blog"
-      url: "/blog"
-      weight: 5
+    # - name: "Blog"
+    #   url: "/blog"
+    #   weight: 5
 
 taxonomies:
   series: "series"
