@@ -1,0 +1,38 @@
+[
+  {
+    "title": "Monitoreo de redes sociales",
+    "description": "Seguimiento activo de menciones que se vierten en las redes sociales asociados a un determinado concepto, marca, idea o persona a partir de la generación de datos estadísticos relevantes para el diseño de estrategias y campañas.",
+    "icon": "icon-servicios-01"
+  },
+  {
+    "title": "Testeo de impacto de campañas",
+    "description": "Medición de impacto de campañas publicitarias, políticas o de marketing en la población, vinculadas a una determinada idea, persona o concepto.",
+    "icon": "icon-servicios-02"
+  },
+  {
+    "title": "Relevamientos de opinión pública",
+    "description": "Diseño y aplicación de diversas técnicas (grupos de discusión, encuestas y paneles por whatsapp) para relevar creencias, valores, actitudes y sentimientos.",
+    "icon": "icon-servicios-03",
+    "link": ""
+  },
+  {
+    "title": "Formulación y evaluación de Proyectos",
+    "description": "Diseño inicial de proyectos, monitoreo intermedio y desarrollo de sistemas de evaluación de resultados e impactos adaptados a la población objetivo.",
+    "icon": "icon-servicios-04",
+    "link": ""
+  },
+  {
+    "title": "Análisis de datos",
+    "description": "El análisis de datos consiste en el procesamiento y sistematización de información existente, tanto cuantitativa como cualtitativa, vinculada a un objetivo o interés específico (investigación, académico o particular).",
+    "icon": "icon-servicios-05",
+    "link": ""
+  },
+  {
+    "title": "Asesoría en planificación de proyectos urbanos",
+    "description": "Construcción y análisis de indicadores que permitan realizar un diagnóstico adecuado del entorno demográfico, social, cultural y económico de los espacios urbanos. El objetivo es brindar herramientas útiles para diseñar, planificar o evaluar un proyecto urbano, de impacto territorial, social o comunitario.",
+    "icon": "icon-servicios-06",
+    "link": ""
+  }
+]
+
+

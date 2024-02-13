@@ -1,0 +1,88 @@
+baseURL: "https://focusuy.netlify.app/"
+theme: "up-business-theme"
+languageCode: "en-us"
+
+title: ""
+
+# googleAnalytics: ""
+
+summaryLength: 20
+
+params:
+  title: "Focus"
+  description: "Nos especializamos en investigaciones multimétodos para conocer la realidad social."
+  images: 
+    - "images/mvd.png"
+
+  logo: "logo.png"
+
+  favicons:
+    themeColor: "#FFFFFF"
+    backgroundColor: "#FFFFFF"
+    faviconColor: "#000000"
+
+  social:
+    github: "#"
+    instagram: "#"
+    facebook: "#"
+    twitter: "#"
+
+  location:
+    - "Montevideo, Uruguay"
+    
+  contact:
+    - "contacto@focusuy.org"
+    - "(+598) 99 316 063"
+
+  
+menus:
+  main:
+    - name: "Inicio"
+      url: "/#hero"
+      weight: 1
+
+    - name: "Servicios"
+      url: "/#services"
+      weight: 2
+
+    - name: "Equipo"
+      url: "/#"
+      weight: 3
+
+    - name: "Clientes"
+      url: "/#brands"
+      weight: 4
+
+    # - name: "Blog"
+    #   url: "/blog"
+    #   weight: 5
+    #   
+    - name: "Contacto"
+      url: "/#contact"
+      weight: 5
+
+
+  footer:
+    - name: "Inicio"
+      url: "/#hero"
+      weight: 1
+
+    - name: "Servicios"
+      url: "/#services"
+      weight: 2
+
+    - name: "Equipo"
+      url: "/#"
+      weight: 3
+
+    - name: "Clientes"
+      url: "/#"
+      weight: 4
+
+    # - name: "Blog"
+    #   url: "/blog"
+    #   weight: 5
+
+taxonomies:
+  series: "series"
+  tags: "tags"
