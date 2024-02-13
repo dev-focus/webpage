@@ -2,16 +2,23 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>index on FOCUS</title>
-    <link>https://example.com/tags/index/</link>
+    <link>https://focusuy.netlify.app/tags/index/</link>
     <description>Recent content in index on FOCUS</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
-    <atom:link href="https://example.com/tags/index/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://focusuy.netlify.app/tags/index/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title></title>
+      <link>https://focusuy.netlify.app/equipo/</link>
+      <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
+      <guid>https://focusuy.netlify.app/equipo/</guid>
+      <description>Gabriela Mathieu&#xA;Sebastián Aguiar&#xA;Julio Calzada&#xA;Elina Gómez&#xA;Sara González&#xA;Valentina Torre</description>
+    </item>
     <item>
       <title>Posts</title>
-      <link>https://example.com/equipo/</link>
+      <link>https://focusuy.netlify.app/posts/</link>
       <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
-      <guid>https://example.com/equipo/</guid>
+      <guid>https://focusuy.netlify.app/posts/</guid>
       <description></description>
     </item>
   </channel>
