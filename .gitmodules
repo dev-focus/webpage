@@ -1,0 +1,3 @@
+[submodule "tella"]
+    path = tella
+    url = https://github.com/opera7133/tella.git
