@@ -44,8 +44,8 @@ enableRobotsTXT = true
     meta_description = "A Hugo Theme for OSSProject, Companies, Organization..."
     meta_og_title = "FOCUS"
     meta_og_type = "website"
-    meta_og_url = "https://tella.pages.dev"
-    meta_og_image = "https://raw.githubusercontent.com/opera7133/tella/master/images/tn.png"
+    meta_og_url = "https://focusuy.org"
+    meta_og_image = ""
     meta_og_description = "FOCUS"
     meta_twitter_card = "summary_large_image"
     meta_twitter_site = "@username"
@@ -55,7 +55,7 @@ enableRobotsTXT = true
 
   [[menu.main]]
     identifier = "sobre"
-    name = "Sobre nosotros"
+    name = "Quiénes somos"
     url = "/sobre/"
     weight = 1
 
