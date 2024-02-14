@@ -2,6 +2,11 @@
 publish = "public"
 command = "git submodule update --remote --merge && npm run build"
 
+
+[submodule "tella"]
+    path = tella
+    url = https://github.com/opera7133/tella.git
+    
 [context.production.environment]
 HUGO_VERSION = "0.104.2"
 HUGO_ENV = "production"
