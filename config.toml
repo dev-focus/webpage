@@ -85,7 +85,7 @@ enableRobotsTXT = true
 
   # Footer Menu
   [[menu.footer]]
-    name = "(+598) 94 012 922"
+    name = "(+598) 92 463 402"
     url = ""
       weight = 1
 
@@ -96,13 +96,13 @@ enableRobotsTXT = true
       weight = 2
   
   [[menu.footer]]
-    name = "BOREAL SYSTEM SA"
+    name = "Razón Social: GONZALEZ GONZALEZ SARA VICTORIA / RUT 218716500014"
     url = ""
     pre = ""
       weight = 3
       
   [[menu.footer]]
-    name = "Dir: 18 de julio 2062/803, Montevideo, Uruguay"
+    name = "Dir: Lavalleja 764, Montevideo, Uruguay"
     url = ""
     pre = ""
       weight = 4

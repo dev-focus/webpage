@@ -12,8 +12,8 @@ _____________
 
 Correo: contacto@focusuy.org
 <br>
-Cel: (+598) 94 012 922
+Cel: (+598) 92 463 402
 <br>
-Razón social: BOREAL SYSTEM SA
+Razón social: GONZALEZ GONZALEZ SARA VICTORIA / RUT 218716500014
 <br>
-Dirección: 18 de julio 2062/803, Montevideo, Uruguay
+Dirección: Lavalleja 764, Montevideo, Uruguay
