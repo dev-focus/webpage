@@ -85,7 +85,7 @@ enableRobotsTXT = true
 
   # Footer Menu
   [[menu.footer]]
-    name = "(+598) 92 463 402"
+    name = "(+598) 99 316 063"
     url = ""
       weight = 1
 
@@ -95,17 +95,7 @@ enableRobotsTXT = true
     pre = ""
       weight = 2
   
-  [[menu.footer]]
-    name = "Razón Social: GONZALEZ GONZALEZ SARA VICTORIA / RUT 218716500014"
-    url = ""
-    pre = ""
-      weight = 3
       
-  [[menu.footer]]
-    name = "Dir: Lavalleja 764, Montevideo, Uruguay"
-    url = ""
-    pre = ""
-      weight = 4
 
 [markup]
   [markup.goldmark]

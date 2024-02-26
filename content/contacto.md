@@ -12,8 +12,5 @@ _____________
 
 Correo: contacto@focusuy.org
 <br>
-Cel: (+598) 92 463 402
+Cel: (+598) 99 316 063
 <br>
-Razón social: GONZALEZ GONZALEZ SARA VICTORIA / RUT 218716500014
-<br>
-Dirección: Lavalleja 764, Montevideo, Uruguay
