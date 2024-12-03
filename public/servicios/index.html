@@ -107,11 +107,11 @@
 
 <meta
   name="description"
-  content="Hugo &amp; Tailwindcss Starter" />
+  content="Investigación social" />
 
 
 
-  <meta name="author" content="zeon.studio" />
+  <meta name="author" content="dev-focus" />
 
 
 
@@ -157,15 +157,9 @@
       
       
       
-        <meta property="og:image" content="http://localhost:1313/images/og-image.png" />
-        <meta name="twitter:image" content="http://localhost:1313/images/og-image.png" />
-        <meta
-          name="twitter:card"
-          content="summary_large_image" />
       
-      
-      <meta property="og:image:width" content="900" />
-      <meta property="og:image:height" content="600" />
+      <meta property="og:image:width" content="200" />
+      <meta property="og:image:height" content="50" />
     
 
 
@@ -183,19 +177,17 @@
 
 
 <meta property="og:title" content="Servicios" />
-<meta property="og:description" content="Hugo &amp; Tailwindcss Starter" />
+<meta property="og:description" content="Investigación social" />
 <meta property="og:type" content="website" />
 <meta property="og:url" content="http://localhost:1313/servicios/" />
 
 
 <meta name="twitter:title" content="Servicios" />
-<meta name="twitter:description" content="Hugo &amp; Tailwindcss Starter" />
+<meta name="twitter:description" content="Investigación social" />
 
 
-  <meta name="twitter:site" content="@zeon_studio" />
 
-
-  <meta name="twitter:creator" content="@zeon.studio" />
+  <meta name="twitter:creator" content="@dev-focus" />
 
 
 
@@ -369,49 +361,6 @@
     
     
 
-
-  <div id="announcement" class="announcement announcement-hide">
-    You must replace the <strong>baseURL</strong> in <strong>hugo.toml</strong> file when deploying, you can manage this announcement from the <strong>params.toml</strong> file.
-    <button id="announcement-button" class="announcement-button">
-      &times;
-    </button>
-  </div>
-
-  
-  <style>
-    .announcement {
-      position: relative;
-      z-index: 999;
-      padding: 1rem;
-      padding-right: 2.8rem;
-      background-color: #fff;
-      box-shadow: 1px 0px 10px 7px rgba(154, 154, 154, 0.11);
-      font-size: 1.1rem;
-    }
-    .announcement-button {
-      cursor: pointer;
-      padding: 0 0.5rem;
-      border: 0;
-      font-size: 1.3rem;
-      position: absolute;
-      top: 50%;
-      right: 1rem;
-      transform: translateY(-50%);
-      border: 1px solid;
-      border-radius: 50%;
-      height: 1.1em;
-      width: 1.1em;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-    }
-    .announcement-hide {
-      display: none;
-    }
-    .dark .announcement {
-      background-color: #222;
-    }
-  </style>
 
 
 
@@ -1756,20 +1705,6 @@
 
 
 
-  
-    <script type="application/javascript">
-      const announcementBox = document.getElementById('announcement');
-      const announcementButton = document.getElementById('announcement-button');
-      if (!Cookies.get('announcement-close')) {
-        announcementBox.classList.remove('announcement-hide');
-        announcementButton.onclick = function () {
-          Cookies.set('announcement-close', true, {
-            expires:  7 
-          });
-          announcementBox.classList.add('announcement-hide');
-        };
-      }
-    </script>
   
 
 
