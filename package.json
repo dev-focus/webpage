@@ -1,23 +1,39 @@
 {
-  "name": "tella",
-  "version": "0.0.1",
-  "description": "Simple, Light, Responsive",
-  "main": "index.js",
-  "repository": "https://github.com/opera7133/tella",
-  "author": "wamo <ainznino@pm.me>",
+  "name": "hugoplate",
+  "description": "hugo tailwindcss boilerplate",
+  "version": "1.17.2",
   "license": "MIT",
+  "author": "zeon.studio",
   "scripts": {
-    "start": "concurrently npm:watch:*",
-    "watch:tw": "tailwindcss -i ./themes/tella/assets/css/main.css -o ./themes/tella/assets/css/style.css --watch",
-    "watch:hugo": "hugo server",
-    "build": "tailwindcss -i ./themes/tella/assets/css/main.css -o ./themes/tella/assets/css/style.css && hugo --minify"
+    "dev": "hugo server",
+    "build": "hugo --gc --minify --templateMetrics --templateMetricsHints --forceSyncStatic",
+    "preview": "hugo server --disableFastRender --navigateToChanged --templateMetrics --templateMetricsHints --watch --forceSyncStatic -e production --minify",
+    "dev:example": "cd exampleSite && hugo server",
+    "build:example": "cd exampleSite && hugo --gc --minify --templateMetrics --templateMetricsHints --forceSyncStatic",
+    "preview:example": "cd exampleSite && hugo server --disableFastRender --navigateToChanged --templateMetrics --templateMetricsHints --watch --forceSyncStatic -e production --minify",
+    "update-modules": "node ./scripts/clearModules.js && hugo mod clean --all && hugo mod get -u ./... && hugo mod tidy",
+    "remove-darkmode": "node ./scripts/removeDarkmode.js && yarn format",
+    "project-setup": "node ./scripts/projectSetup.js",
+    "theme-setup": "node ./scripts/themeSetup.js",
+    "update-theme": "node ./scripts/themeUpdate.js",
+    "format": "prettier -w ."
   },
   "devDependencies": {
-    "@tailwindcss/typography": "^0.5.4",
-    "autoprefixer": "^10.4.7",
-    "concurrently": "^8.0.1",
-    "postcss": "^8.4.14",
+    "@tailwindcss/forms": "^0.5.9",
+    "@tailwindcss/typography": "^0.5.15",
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.4.49",
     "postcss-cli": "^11.0.0",
-    "tailwindcss": "^3.1.6"
+    "prettier": "^3.4.1",
+    "prettier-plugin-go-template": "0.0.15",
+    "prettier-plugin-tailwindcss": "^0.6.9",
+    "tailwind-bootstrap-grid": "^5.1.0",
+    "tailwindcss": "^3.4.15"
+  },
+  "postcss": {
+    "plugins": {
+      "tailwindcss": {},
+      "autoprefixer": {}
+    }
   }
 }

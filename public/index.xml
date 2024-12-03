@@ -1,124 +1,103 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>FOCUS</title>
-    <link>https://focusuy.netlify.app/</link>
-    <description>Recent content on FOCUS</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>es</language>
-    <lastBuildDate>Tue, 23 Jun 2020 12:33:45 +1000</lastBuildDate>
-    <atom:link href="https://focusuy.netlify.app/index.xml" rel="self" type="application/rss+xml" />
+    <title>Focus</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content on Focus</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 04 Apr 2022 05:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Example Project</title>
-      <link>https://focusuy.netlify.app/servicios/example/</link>
-      <pubDate>Tue, 23 Jun 2020 12:33:45 +1000</pubDate>
-      <guid>https://focusuy.netlify.app/servicios/example/</guid>
-      <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec accumsan dapibus purus, vel maximus erat facilisis vel. Suspendisse eu ipsum consequat, sodales nulla vel, faucibus velit. Fusce imperdiet lacus nec cursus auctor. In vulputate arcu et nulla placerat, nec pulvinar quam rhoncus. Praesent vel placerat nunc. Mauris elit felis, pulvinar egestas risus ut, fermentum ullamcorper orci. Integer tempor, neque sed fermentum eleifend, ligula est tincidunt purus, sodales semper elit enim ut mi.</description>
+      <title>How to build an Application with modern Technology</title>
+      <link>http://localhost:1313/blog/post-1/</link>
+      <pubDate>Mon, 04 Apr 2022 05:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/post-1/</guid>
+      <description>&lt;p&gt;Nemo vel ad consectetur namut rutrum ex, venenatis sollicitudin urna. Aliquam erat volutpat. Integer eu ipsum sem. Ut bibendum lacus vestibulum maximus suscipit. Quisque vitae nibh iaculis neque blandit euismod.&lt;/p&gt;</description>
     </item>
     <item>
-      <title></title>
-      <link>https://focusuy.netlify.app/archives/</link>
-      <pubDate>Tue, 28 May 2019 00:00:00 +0000</pubDate>
-      <guid>https://focusuy.netlify.app/archives/</guid>
+      <title>How to build an Application with modern Technology</title>
+      <link>http://localhost:1313/blog/post-2/</link>
+      <pubDate>Mon, 04 Apr 2022 05:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/post-2/</guid>
+      <description>&lt;p&gt;Nemo vel ad consectetur namut rutrum ex, venenatis sollicitudin urna. Aliquam erat volutpat. Integer eu ipsum sem. Ut bibendum lacus vestibulum maximus suscipit. Quisque vitae nibh iaculis neque blandit euismod.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>How to build an Application with modern Technology</title>
+      <link>http://localhost:1313/blog/post-3/</link>
+      <pubDate>Mon, 04 Apr 2022 05:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/post-3/</guid>
+      <description>&lt;p&gt;Nemo vel ad consectetur namut rutrum ex, venenatis sollicitudin urna. Aliquam erat volutpat. Integer eu ipsum sem. Ut bibendum lacus vestibulum maximus suscipit. Quisque vitae nibh iaculis neque blandit euismod.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>How to build an Application with modern Technology</title>
+      <link>http://localhost:1313/blog/post-4/</link>
+      <pubDate>Mon, 04 Apr 2022 05:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/post-4/</guid>
+      <description>&lt;p&gt;Nemo vel ad consectetur namut rutrum ex, venenatis sollicitudin urna. Aliquam erat volutpat. Integer eu ipsum sem. Ut bibendum lacus vestibulum maximus suscipit. Quisque vitae nibh iaculis neque blandit euismod.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Clientes</title>
+      <link>http://localhost:1313/clientes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/clientes/</guid>
+      <description>&lt;h4 id=&#34;organizaciones-colectivos-y-empresas-que-han-confiado-en-nuestro-trabajo&#34;&gt;Organizaciones, colectivos y empresas que han confiado en nuestro trabajo&lt;/h4&gt;&#xA;&lt;hr&gt;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;  &#xD;&#xA;  &lt;div&#xD;&#xA;    class=&#34; gallery &#34;&gt;&#xD;&#xA;    &#xD;&#xA;      &#xD;&#xA;      &#xD;&#xA;      &#xD;&#xA;        &#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;  &#xA;  &#xA;    &#xA;    &#xA;  &#xA;  &#xA;  &#xA;&#xA;&#xA;  &#xA;  &#xA;    &#xA;&#xA;    &#xA;    &#xA;&#xA;&#xA;    &#xA;    &#xA;    &#xA;    &#xA;    &#xA;    &#xA;    &#xA;    &#xA;&#xA;&#xA;    &#xA;&#xA;    &#xA;    &#xA;    &#xA;      &#xA;      &#xA;        &#xA;        &#xA;      &#xA;      &#xA;    &#xA;&#xA;&#xA;    &#xA;  &#xA;&#xA;&#xA;  &#xA;&#xA;&#xD;&#xA;        &#xD;&#xA;        &#xD;&#xA;        &#xD;&#xA;        &#xD;&#xA;&#xD;&#xA;        &lt;div class=&#34;gallery-item&#34;&gt;&#xD;&#xA;          &#xD;&#xA;            &lt;img&#xD;&#xA;              loading=&#34;lazy&#34;&#xD;&#xA;              src=&#34;http://localhost:1313/images/gallery/01_hu5637000681294904279.png&#34;&#xD;&#xA;              class=&#34;img&#34;&#xD;&#xA;              style=&#34;margin: 0;&#34;&#xD;&#xA;              alt=&#34;01.png&#34;&#xD;&#xA;              onerror=&#34;this.onerror=&#39;null&#39;;this.src=&#39;\/images\/gallery\/01_hu5637000681294904279.png&#39;&#34; /&gt;&#xD;&#xA;          &#xD;&#xA;        &lt;/div&gt;&#xD;&#xA;      &#xD;&#xA;    &#xD;&#xA;    &#xD;&#xA;  &lt;/div&gt;</description>
+    </item>
+    <item>
+      <title>Elements</title>
+      <link>http://localhost:1313/elements/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/elements/</guid>
+      <description>&lt;details class=&#34;table-of-content &#34;&gt;&#xA;  &lt;summary&gt;&#xA;    &#xA;      Table of Contents&#xA;    &#xA;  &lt;/summary&gt;&#xA;  &lt;nav id=&#34;TableOfContents&#34;&gt;&#xA;  &lt;ol&gt;&#xA;    &lt;li&gt;&#xA;      &lt;ol&gt;&#xA;        &lt;li&gt;&lt;a href=&#34;#image&#34;&gt;Image&lt;/a&gt;&lt;/li&gt;&#xA;        &lt;li&gt;&lt;a href=&#34;#organizaciónes-colectivos-y-empresas-que-han-confiado-en-nuestro-trabajo&#34;&gt;Organizaciónes, colectivos y empresas que han confiado en nuestro trabajo&lt;/a&gt;&lt;/li&gt;&#xA;        &lt;li&gt;&lt;a href=&#34;#slider&#34;&gt;Slider&lt;/a&gt;&lt;/li&gt;&#xA;      &lt;/ol&gt;&#xA;    &lt;/li&gt;&#xA;  &lt;/ol&gt;&#xA;&lt;/nav&gt;&#xA;&lt;/details&gt;&#xA;&#xA;&lt;h3 id=&#34;image&#34;&gt;Image&lt;/h3&gt;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;  &#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;  &#xD;&#xA;  &#xD;&#xA;  &#xD;&#xA;&#xD;&#xA;&#xD;&#xA;  &#xD;&#xA;  &#xD;&#xA;    &#xD;&#xA;    &#xD;&#xA;      &#xD;&#xA;    &#xD;&#xA;&#xD;&#xA;    &#xD;&#xA;&#xD;&#xA;&#xD;&#xA;    &#xD;&#xA;    &#xD;&#xA;&#xD;&#xA;&#xD;&#xA;    &#xD;&#xA;    &#xD;&#xA;    &#xD;&#xA;    &#xD;&#xA;      &#xD;&#xA;      &#xD;&#xA;    &#xD;&#xA;    &#xD;&#xA;    &#xD;&#xA;    &#xD;&#xA;&#xD;&#xA;&#xD;&#xA;    &#xD;&#xA;    &#xD;&#xA;      &#xD;&#xA;      &#xD;&#xA;&#xD;&#xA;      &#xD;&#xA;        &#xD;&#xA;        &#xD;&#xA;      &#xD;&#xA;&#xD;&#xA;&#xD;&#xA;      &#xD;&#xA;&#xD;&#xA;      &#xD;&#xA;      &#xD;&#xA;        &#xD;&#xA;        &#xD;&#xA;        &#xD;&#xA;      &#xD;&#xA;      &#xD;&#xA;      &#xD;&#xA;      &#xD;&#xA;&#xD;&#xA;    &#xD;&#xA;    &#xD;&#xA;&#xD;&#xA;    &#xD;&#xA;    &#xD;&#xA;      &#xD;&#xA;      &#xD;&#xA;          &lt;img&#xD;&#xA;            title=&#34;image title&#34;&#xD;&#xA;            loading=&#34;lazy&#34;&#xD;&#xA;            decoding=&#34;async&#34;&#xD;&#xA;            class=&#34;img img-fluid img-center&#34;&#xD;&#xA;            width=&#34;1096&#34;&#xD;&#xA;            height=&#34;480&#34;&#xD;&#xA;            src=&#34;http://localhost:1313/images/image-placeholder_hu9204186235374062168.png&#34;&#xD;&#xA;            alt=&#34;alter-text&#34;&#xD;&#xA;            onerror=&#34;this.onerror=&#39;null&#39;;this.src=&#39;\/images\/image-placeholder_hu9204186235374062168.png&#39;&#34; /&gt;&#xD;&#xA;      &#xD;&#xA;    &#xD;&#xA;&#xD;&#xA;  &#xD;&#xA;  &#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;  &lt;script&gt;&#xD;&#xA;    window.addEventListener(&#34;load&#34;, (e) =&gt; {&#xD;&#xA;      const lightbox = GLightbox();&#xD;&#xA;    });&#xD;&#xA;  &lt;/script&gt;&#xD;&#xA;&#xD;&#xA;&#xA;&lt;hr&gt;&#xA;&lt;h3 id=&#34;organizaciónes-colectivos-y-empresas-que-han-confiado-en-nuestro-trabajo&#34;&gt;Organizaciónes, colectivos y empresas que han confiado en nuestro trabajo&lt;/h3&gt;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;  &#xD;&#xA;  &lt;div&#xD;&#xA;    class=&#34; gallery &#xD;&#xA;      zoomable&#xD;&#xA;    &#34;&gt;&#xD;&#xA;    &#xD;&#xA;      &#xD;&#xA;      &#xD;&#xA;      &#xD;&#xA;        &#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;  &#xA;  &#xA;    &#xA;    &#xA;  &#xA;  &#xA;  &#xA;&#xA;&#xA;  &#xA;  &#xA;    &#xA;&#xA;    &#xA;    &#xA;&#xA;&#xA;    &#xA;    &#xA;    &#xA;    &#xA;    &#xA;    &#xA;    &#xA;    &#xA;&#xA;&#xA;    &#xA;&#xA;    &#xA;    &#xA;    &#xA;      &#xA;      &#xA;        &#xA;        &#xA;      &#xA;      &#xA;    &#xA;&#xA;&#xA;    &#xA;  &#xA;&#xA;&#xA;  &#xA;&#xA;&#xD;&#xA;        &#xD;&#xA;        &#xD;&#xA;        &#xD;&#xA;        &#xD;&#xA;&#xD;&#xA;        &lt;div class=&#34;gallery-item&#34;&gt;&#xD;&#xA;          &#xD;&#xA;            &lt;a&#xD;&#xA;              href=&#34;http://localhost:1313/images/gallery/01.png&#34;&#xD;&#xA;              style=&#34;display: block;&#34;&#xD;&#xA;              class=&#34;glightbox&#34;&gt;&#xD;&#xA;              &lt;img&#xD;&#xA;                loading=&#34;lazy&#34;&#xD;&#xA;                src=&#34;http://localhost:1313/images/gallery/01_hu474392341352551719.png&#34;&#xD;&#xA;                class=&#34;img&#34;&#xD;&#xA;                style=&#34;margin: 0;&#34;&#xD;&#xA;                alt=&#34;01.png&#34;&#xD;&#xA;                onerror=&#34;this.onerror=&#39;null&#39;;this.src=&#39;\/images\/gallery\/01_hu474392341352551719.png&#39;&#34; /&gt;&#xD;&#xA;            &lt;/a&gt;&#xD;&#xA;          &#xD;&#xA;        &lt;/div&gt;&#xD;&#xA;      &#xD;&#xA;    &#xD;&#xA;    &#xD;&#xA;  &lt;/div&gt;&#xD;&#xA;&#xD;&#xA;  &#xD;&#xA;&#xA;&lt;hr&gt;&#xA;&lt;h3 id=&#34;slider&#34;&gt;Slider&lt;/h3&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&lt;div class=&#34;swiper gallery-slider max-w-[600px] ml-0&#34;&gt;&#xA;  &lt;div class=&#34;swiper-wrapper&#34;&gt;&#xA;    &#xA;    &#xA;      &#xA;      &#xA;        &#xA;        &#xA;        &#xA;&#xA;          &#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;  &#xA;  &#xA;    &#xA;    &#xA;  &#xA;  &#xA;  &#xA;&#xA;&#xA;  &#xA;  &#xA;    &#xA;&#xA;    &#xA;    &#xA;&#xA;&#xA;    &#xA;    &#xA;    &#xA;    &#xA;    &#xA;    &#xA;    &#xA;    &#xA;&#xA;&#xA;    &#xA;&#xA;    &#xA;    &#xA;    &#xA;      &#xA;      &#xA;        &#xA;        &#xA;      &#xA;      &#xA;    &#xA;&#xA;&#xA;    &#xA;  &#xA;&#xA;&#xA;  &#xA;&#xA;&#xA;          &#xA;          &#xA;          &#xA;          &#xA;&#xA;&#xA;          &lt;div&#xA;            class=&#34;swiper-slide zoomable&#34;&gt;&#xA;            &#xA;              &lt;a&#xA;                href=&#34;http://localhost:1313/images/gallery/01.png&#34;&#xA;                class=&#34;glightbox&#34;&#xA;                style=&#34;display: block;&#34;&gt;&#xA;                &lt;img&#xA;                  loading=&#34;lazy&#34;&#xA;                  src=&#34;http://localhost:1313/images/gallery/01_hu474392341352551719.png&#34;&#xA;                  class=&#34;img&#34;&#xA;                  style=&#34;margin: 0&#34;&#xA;                  alt=&#34;01.png&#34;&#xA;                  onerror=&#34;this.onerror=&#39;null&#39;;this.src=&#39;\/images\/gallery\/01_hu474392341352551719.png&#39;&#34; /&gt;&#xA;              &lt;/a&gt;&#xA;            &#xA;          &lt;/div&gt;&#xA;        &#xA;      &#xA;&#xA;&#xA;      &#xA;&#xA;      &#xA;    &#xA;    &#xA;  &lt;/div&gt;&#xA;&#xA;  &#xA;  &lt;span class=&#34;swiper-button-prev&#34;&gt;&lt;/span&gt;&#xA;  &lt;span class=&#34;swiper-button-next&#34;&gt;&lt;/span&gt;&#xA;&lt;/div&gt;&#xA;&#xA;&#xA;&lt;hr&gt;</description>
+    </item>
+    <item>
+      <title>Gurises Unidos</title>
+      <link>http://localhost:1313/authors/john-doe/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/authors/john-doe/</guid>
       <description></description>
     </item>
     <item>
-      <title>Markdown Syntax Guide</title>
-      <link>https://focusuy.netlify.app/equipo/markdown-syntax/</link>
-      <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
-      <guid>https://focusuy.netlify.app/equipo/markdown-syntax/</guid>
-      <description>&lt;p&gt;This article offers a sample of basic Markdown syntax that can be used in Hugo content files, also it shows whether basic HTML elements are decorated with CSS in a Hugo theme.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Markdown Syntax Guide</title>
-      <link>https://focusuy.netlify.app/posts/markdown-syntax/</link>
-      <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
-      <guid>https://focusuy.netlify.app/posts/markdown-syntax/</guid>
-      <description>&lt;p&gt;This article offers a sample of basic Markdown syntax that can be used in Hugo content files, also it shows whether basic HTML elements are decorated with CSS in a Hugo theme.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Rich Content</title>
-      <link>https://focusuy.netlify.app/equipo/rich-content/</link>
-      <pubDate>Sun, 10 Mar 2019 00:00:00 +0000</pubDate>
-      <guid>https://focusuy.netlify.app/equipo/rich-content/</guid>
-      <description>&lt;p&gt;Hugo ships with several &lt;a href=&#34;https://gohugo.io/content-management/shortcodes/#use-hugos-built-in-shortcodes&#34;&gt;Built-in Shortcodes&lt;/a&gt; for rich content, along with a &lt;a href=&#34;https://gohugo.io/about/hugo-and-gdpr/&#34;&gt;Privacy Config&lt;/a&gt; and a set of Simple Shortcodes that enable static and no-JS versions of various social media embeds.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Rich Content</title>
-      <link>https://focusuy.netlify.app/posts/rich-content/</link>
-      <pubDate>Sun, 10 Mar 2019 00:00:00 +0000</pubDate>
-      <guid>https://focusuy.netlify.app/posts/rich-content/</guid>
-      <description>&lt;p&gt;Hugo ships with several &lt;a href=&#34;https://gohugo.io/content-management/shortcodes/#use-hugos-built-in-shortcodes&#34;&gt;Built-in Shortcodes&lt;/a&gt; for rich content, along with a &lt;a href=&#34;https://gohugo.io/about/hugo-and-gdpr/&#34;&gt;Privacy Config&lt;/a&gt; and a set of Simple Shortcodes that enable static and no-JS versions of various social media embeds.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Placeholder Text</title>
-      <link>https://focusuy.netlify.app/equipo/placeholder-text/</link>
-      <pubDate>Sat, 09 Mar 2019 00:00:00 +0000</pubDate>
-      <guid>https://focusuy.netlify.app/equipo/placeholder-text/</guid>
-      <description>&lt;p&gt;Lorem est tota propiore conpellat pectoribus de pectora summo.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Placeholder Text</title>
-      <link>https://focusuy.netlify.app/posts/placeholder-text/</link>
-      <pubDate>Sat, 09 Mar 2019 00:00:00 +0000</pubDate>
-      <guid>https://focusuy.netlify.app/posts/placeholder-text/</guid>
-      <description>&lt;p&gt;Lorem est tota propiore conpellat pectoribus de pectora summo.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Math Typesetting</title>
-      <link>https://focusuy.netlify.app/equipo/math-typesetting/</link>
-      <pubDate>Fri, 08 Mar 2019 00:00:00 +0000</pubDate>
-      <guid>https://focusuy.netlify.app/equipo/math-typesetting/</guid>
-      <description>&lt;p&gt;Mathematical notation in a Hugo project can be enabled by using third party JavaScript libraries.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Math Typesetting</title>
-      <link>https://focusuy.netlify.app/posts/math-typesetting/</link>
-      <pubDate>Fri, 08 Mar 2019 00:00:00 +0000</pubDate>
-      <guid>https://focusuy.netlify.app/posts/math-typesetting/</guid>
-      <description>&lt;p&gt;Mathematical notation in a Hugo project can be enabled by using third party JavaScript libraries.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Emoji Support</title>
-      <link>https://focusuy.netlify.app/equipo/emoji-support/</link>
-      <pubDate>Tue, 05 Mar 2019 00:00:00 +0000</pubDate>
-      <guid>https://focusuy.netlify.app/equipo/emoji-support/</guid>
-      <description>&lt;p&gt;Emoji can be enabled in a Hugo project in a number of ways.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Emoji Support</title>
-      <link>https://focusuy.netlify.app/posts/emoji-support/</link>
-      <pubDate>Tue, 05 Mar 2019 00:00:00 +0000</pubDate>
-      <guid>https://focusuy.netlify.app/posts/emoji-support/</guid>
-      <description>&lt;p&gt;Emoji can be enabled in a Hugo project in a number of ways.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title></title>
-      <link>https://focusuy.netlify.app/clientes/</link>
-      <pubDate>Thu, 28 Feb 2019 00:00:00 +0000</pubDate>
-      <guid>https://focusuy.netlify.app/clientes/</guid>
-      <description>Desde el 2012 trabajamos para impulsar las transformaciones que buscas, encontrar respuestas a las preguntas que se plantean y conocer realidades de interés para nuestros proyectos y clientes. Utilizamos diversas y novedosas herramientas para la recolección, el procesamiento y el análisis de datos.&#xA;Organizaciónes, colectivos y empresas que han confiado en nuestro trabajo</description>
-    </item>
-    <item>
-      <title></title>
-      <link>https://focusuy.netlify.app/sobre/</link>
-      <pubDate>Thu, 28 Feb 2019 00:00:00 +0000</pubDate>
-      <guid>https://focusuy.netlify.app/sobre/</guid>
-      <description>FOCUS es una entidad de referencia a nivel nacional y regional en la generación de información en base a datos, que contribuye a la producción de conocimiento, la elaboración teórica, el diseño de estrategias y el desarrollo de acciones, en base a metodologías de inmersión en la sociedad y la cultura y su comprensión como fenómenos singulares enmarcados en fenómenos globales.&#xA;La misión de FOCUS consiste en implementar procesos inmersivos de investigación que conocer y comprender la realidad social y cultural de la sociedad mediante multi métodos que permitan aportar elaborar estrategias y proyectar acciones que posibiliten su transformación en aras del bien común.</description>
-    </item>
-    <item>
-      <title>About</title>
-      <link>https://focusuy.netlify.app/about/</link>
-      <pubDate>Thu, 28 Feb 2019 00:00:00 +0000</pubDate>
-      <guid>https://focusuy.netlify.app/about/</guid>
-      <description>Written in Go, Hugo is an open source static site generator available under the Apache Licence 2.0. Hugo supports TOML, YAML and JSON data file types, Markdown and HTML content files and uses shortcodes to add rich content. Other notable features are taxonomies, multilingual mode, image processing, custom output formats, HTML/CSS/JS minification and support for Sass SCSS workflows.&#xA;Hugo makes use of a variety of open source projects including:&#xA;https://github.com/yuin/goldmark https://github.</description>
-    </item>
-    <item>
-      <title></title>
-      <link>https://focusuy.netlify.app/contacto/</link>
+      <title>Privacy</title>
+      <link>http://localhost:1313/privacy-policy/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://focusuy.netlify.app/contacto/</guid>
-      <description>Complete el formulario para contactarnos:&#xA;_____________&#xD;Correo: contacto@focusuy.org Cel: (+598) 99 316 063 </description>
+      <guid>http://localhost:1313/privacy-policy/</guid>
+      <description>&lt;h4 id=&#34;responsibility-of-contributors&#34;&gt;Responsibility of Contributors&lt;/h4&gt;&#xA;&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Purus, donec nunc eros, ullamcorper id feugiat quisque aliquam sagittis. Sem turpis sed viverra massa gravida pharetra. Non dui dolor potenti eu dignissim fusce. Ultrices amet, in curabitur a arcu a lectus morbi id. Iaculis erat sagittis in tortor cursus. Molestie urna eu tortor, erat scelerisque eget. Nunc hendrerit sed interdum lacus. Lorem quis viverra sed&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Ready to build your next project with Hugo?</title>
+      <link></link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid></guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Sam Wilson</title>
+      <link>http://localhost:1313/authors/sam-wilson/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/authors/sam-wilson/</guid>
+      <description>&lt;p&gt;lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostr navigation et dolore magna aliqua.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Servicios</title>
+      <link>http://localhost:1313/servicios/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/servicios/</guid>
+      <description>&lt;h3 id=&#34;principales-servicios-que-ofrecemos&#34;&gt;Principales servicios que ofrecemos&lt;/h3&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&lt;div class=&#34;swiper gallery-slider max-w-[1000px] ml-50&#34;&gt;&#xA;  &lt;div class=&#34;swiper-wrapper&#34;&gt;&#xA;    &#xA;    &#xA;      &#xA;      &#xA;        &#xA;        &#xA;        &#xA;&#xA;          &#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;  &#xA;  &#xA;    &#xA;    &#xA;  &#xA;  &#xA;  &#xA;&#xA;&#xA;  &#xA;  &#xA;    &#xA;&#xA;    &#xA;    &#xA;&#xA;&#xA;    &#xA;    &#xA;    &#xA;    &#xA;    &#xA;    &#xA;    &#xA;    &#xA;&#xA;&#xA;    &#xA;&#xA;    &#xA;    &#xA;    &#xA;      &#xA;      &#xA;        &#xA;        &#xA;      &#xA;      &#xA;    &#xA;&#xA;&#xA;    &#xA;  &#xA;&#xA;&#xA;  &#xA;&#xA;&#xA;          &#xA;          &#xA;          &#xA;          &#xA;&#xA;&#xA;          &lt;div&#xA;            class=&#34;swiper-slide zoomable&#34;&gt;&#xA;            &#xA;              &lt;a&#xA;                href=&#34;http://localhost:1313/images/slider/datos.png&#34;&#xA;                class=&#34;glightbox&#34;&#xA;                style=&#34;display: block;&#34;&gt;&#xA;                &lt;img&#xA;                  loading=&#34;lazy&#34;&#xA;                  src=&#34;http://localhost:1313/images/slider/datos_hu6048466628140999628.png&#34;&#xA;                  class=&#34;img&#34;&#xA;                  style=&#34;margin: 0&#34;&#xA;                  alt=&#34;datos.png&#34;&#xA;                  onerror=&#34;this.onerror=&#39;null&#39;;this.src=&#39;\/images\/slider\/datos_hu6048466628140999628.png&#39;&#34; /&gt;&#xA;              &lt;/a&gt;&#xA;            &#xA;          &lt;/div&gt;&#xA;        &#xA;      &#xA;        &#xA;        &#xA;        &#xA;&#xA;          &#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;  &#xA;  &#xA;    &#xA;    &#xA;  &#xA;  &#xA;  &#xA;&#xA;&#xA;  &#xA;  &#xA;    &#xA;&#xA;    &#xA;    &#xA;&#xA;&#xA;    &#xA;    &#xA;    &#xA;    &#xA;    &#xA;    &#xA;    &#xA;    &#xA;&#xA;&#xA;    &#xA;&#xA;    &#xA;    &#xA;    &#xA;      &#xA;      &#xA;        &#xA;        &#xA;      &#xA;      &#xA;    &#xA;&#xA;&#xA;    &#xA;  &#xA;&#xA;&#xA;  &#xA;&#xA;&#xA;          &#xA;          &#xA;          &#xA;          &#xA;&#xA;&#xA;          &lt;div&#xA;            class=&#34;swiper-slide zoomable&#34;&gt;&#xA;            &#xA;              &lt;a&#xA;                href=&#34;http://localhost:1313/images/slider/ia.png&#34;&#xA;                class=&#34;glightbox&#34;&#xA;                style=&#34;display: block;&#34;&gt;&#xA;                &lt;img&#xA;                  loading=&#34;lazy&#34;&#xA;                  src=&#34;http://localhost:1313/images/slider/ia_hu1048985386479006001.png&#34;&#xA;                  class=&#34;img&#34;&#xA;                  style=&#34;margin: 0&#34;&#xA;                  alt=&#34;ia.png&#34;&#xA;                  onerror=&#34;this.onerror=&#39;null&#39;;this.src=&#39;\/images\/slider\/ia_hu1048985386479006001.png&#39;&#34; /&gt;&#xA;              &lt;/a&gt;&#xA;            &#xA;          &lt;/div&gt;&#xA;        &#xA;      &#xA;        &#xA;        &#xA;        &#xA;&#xA;          &#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;  &#xA;  &#xA;    &#xA;    &#xA;  &#xA;  &#xA;  &#xA;&#xA;&#xA;  &#xA;  &#xA;    &#xA;&#xA;    &#xA;    &#xA;&#xA;&#xA;    &#xA;    &#xA;    &#xA;    &#xA;    &#xA;    &#xA;    &#xA;    &#xA;&#xA;&#xA;    &#xA;&#xA;    &#xA;    &#xA;    &#xA;      &#xA;      &#xA;        &#xA;        &#xA;      &#xA;      &#xA;    &#xA;&#xA;&#xA;    &#xA;  &#xA;&#xA;&#xA;  &#xA;&#xA;&#xA;          &#xA;          &#xA;          &#xA;          &#xA;&#xA;&#xA;          &lt;div&#xA;            class=&#34;swiper-slide zoomable&#34;&gt;&#xA;            &#xA;              &lt;a&#xA;                href=&#34;http://localhost:1313/images/slider/medios.png&#34;&#xA;                class=&#34;glightbox&#34;&#xA;                style=&#34;display: block;&#34;&gt;&#xA;                &lt;img&#xA;                  loading=&#34;lazy&#34;&#xA;                  src=&#34;http://localhost:1313/images/slider/medios_hu10754005075406722469.png&#34;&#xA;                  class=&#34;img&#34;&#xA;                  style=&#34;margin: 0&#34;&#xA;                  alt=&#34;medios.png&#34;&#xA;                  onerror=&#34;this.onerror=&#39;null&#39;;this.src=&#39;\/images\/slider\/medios_hu10754005075406722469.png&#39;&#34; /&gt;&#xA;              &lt;/a&gt;&#xA;            &#xA;          &lt;/div&gt;&#xA;        &#xA;      &#xA;        &#xA;        &#xA;        &#xA;&#xA;          &#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;  &#xA;  &#xA;    &#xA;    &#xA;  &#xA;  &#xA;  &#xA;&#xA;&#xA;  &#xA;  &#xA;    &#xA;&#xA;    &#xA;    &#xA;&#xA;&#xA;    &#xA;    &#xA;    &#xA;    &#xA;    &#xA;    &#xA;    &#xA;    &#xA;&#xA;&#xA;    &#xA;&#xA;    &#xA;    &#xA;    &#xA;      &#xA;      &#xA;        &#xA;        &#xA;      &#xA;      &#xA;    &#xA;&#xA;&#xA;    &#xA;  &#xA;&#xA;&#xA;  &#xA;&#xA;&#xA;          &#xA;          &#xA;          &#xA;          &#xA;&#xA;&#xA;          &lt;div&#xA;            class=&#34;swiper-slide zoomable&#34;&gt;&#xA;            &#xA;              &lt;a&#xA;                href=&#34;http://localhost:1313/images/slider/monitoreo_rrss.png&#34;&#xA;                class=&#34;glightbox&#34;&#xA;                style=&#34;display: block;&#34;&gt;&#xA;                &lt;img&#xA;                  loading=&#34;lazy&#34;&#xA;                  src=&#34;http://localhost:1313/images/slider/monitoreo_rrss_hu2431321147688427101.png&#34;&#xA;                  class=&#34;img&#34;&#xA;                  style=&#34;margin: 0&#34;&#xA;                  alt=&#34;monitoreo_rrss.png&#34;&#xA;                  onerror=&#34;this.onerror=&#39;null&#39;;this.src=&#39;\/images\/slider\/monitoreo_rrss_hu2431321147688427101.png&#39;&#34; /&gt;&#xA;              &lt;/a&gt;&#xA;            &#xA;          &lt;/div&gt;&#xA;        &#xA;      &#xA;        &#xA;        &#xA;        &#xA;&#xA;          &#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;  &#xA;  &#xA;    &#xA;    &#xA;  &#xA;  &#xA;  &#xA;&#xA;&#xA;  &#xA;  &#xA;    &#xA;&#xA;    &#xA;    &#xA;&#xA;&#xA;    &#xA;    &#xA;    &#xA;    &#xA;    &#xA;    &#xA;    &#xA;    &#xA;&#xA;&#xA;    &#xA;&#xA;    &#xA;    &#xA;    &#xA;      &#xA;      &#xA;        &#xA;        &#xA;      &#xA;      &#xA;    &#xA;&#xA;&#xA;    &#xA;  &#xA;&#xA;&#xA;  &#xA;&#xA;&#xA;          &#xA;          &#xA;          &#xA;          &#xA;&#xA;&#xA;          &lt;div&#xA;            class=&#34;swiper-slide zoomable&#34;&gt;&#xA;            &#xA;              &lt;a&#xA;                href=&#34;http://localhost:1313/images/slider/relevamiento.png&#34;&#xA;                class=&#34;glightbox&#34;&#xA;                style=&#34;display: block;&#34;&gt;&#xA;                &lt;img&#xA;                  loading=&#34;lazy&#34;&#xA;                  src=&#34;http://localhost:1313/images/slider/relevamiento_hu124738134993089603.png&#34;&#xA;                  class=&#34;img&#34;&#xA;                  style=&#34;margin: 0&#34;&#xA;                  alt=&#34;relevamiento.png&#34;&#xA;                  onerror=&#34;this.onerror=&#39;null&#39;;this.src=&#39;\/images\/slider\/relevamiento_hu124738134993089603.png&#39;&#34; /&gt;&#xA;              &lt;/a&gt;&#xA;            &#xA;          &lt;/div&gt;&#xA;        &#xA;      &#xA;        &#xA;        &#xA;        &#xA;&#xA;          &#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;  &#xA;  &#xA;    &#xA;    &#xA;  &#xA;  &#xA;  &#xA;&#xA;&#xA;  &#xA;  &#xA;    &#xA;&#xA;    &#xA;    &#xA;&#xA;&#xA;    &#xA;    &#xA;    &#xA;    &#xA;    &#xA;    &#xA;    &#xA;    &#xA;&#xA;&#xA;    &#xA;&#xA;    &#xA;    &#xA;    &#xA;      &#xA;      &#xA;        &#xA;        &#xA;      &#xA;      &#xA;    &#xA;&#xA;&#xA;    &#xA;  &#xA;&#xA;&#xA;  &#xA;&#xA;&#xA;          &#xA;          &#xA;          &#xA;          &#xA;&#xA;&#xA;          &lt;div&#xA;            class=&#34;swiper-slide zoomable&#34;&gt;&#xA;            &#xA;              &lt;a&#xA;                href=&#34;http://localhost:1313/images/slider/testeo.png&#34;&#xA;                class=&#34;glightbox&#34;&#xA;                style=&#34;display: block;&#34;&gt;&#xA;                &lt;img&#xA;                  loading=&#34;lazy&#34;&#xA;                  src=&#34;http://localhost:1313/images/slider/testeo_hu16002246613424897377.png&#34;&#xA;                  class=&#34;img&#34;&#xA;                  style=&#34;margin: 0&#34;&#xA;                  alt=&#34;testeo.png&#34;&#xA;                  onerror=&#34;this.onerror=&#39;null&#39;;this.src=&#39;\/images\/slider\/testeo_hu16002246613424897377.png&#39;&#34; /&gt;&#xA;              &lt;/a&gt;&#xA;            &#xA;          &lt;/div&gt;&#xA;        &#xA;      &#xA;&#xA;&#xA;      &#xA;&#xA;      &#xA;    &#xA;    &#xA;  &lt;/div&gt;&#xA;&#xA;  &#xA;  &lt;span class=&#34;swiper-button-prev&#34;&gt;&lt;/span&gt;&#xA;  &lt;span class=&#34;swiper-button-next&#34;&gt;&lt;/span&gt;&#xA;&lt;/div&gt;</description>
+    </item>
+    <item>
+      <title>What Users Are Saying About Hugoplate</title>
+      <link></link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid></guid>
+      <description></description>
+    </item>
+    <item>
+      <title>William Jacob</title>
+      <link>http://localhost:1313/authors/william-jacob/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/authors/william-jacob/</guid>
+      <description>&lt;p&gt;lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostr navigation et dolore magna aliqua.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

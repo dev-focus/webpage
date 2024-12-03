@@ -1,31 +1,7 @@
 [build]
 publish = "public"
-command = "git submodule update --remote"
+command = "yarn project-setup; yarn build"
 
-
-[context.production.environment]
-HUGO_VERSION = "0.104.2"
-HUGO_ENV = "production"
-HUGO_ENABLEGITINFO = "true"
-
-[context.split1]
-command = "npm run build"
-
-[context.split1.environment]
-HUGO_VERSION = "0.104.2"
-HUGO_ENV = "production"
-
-[context.deploy-preview]
-command = "npm run build"
-
-[context.deploy-preview.environment]
-HUGO_VERSION = "0.104.2"
-
-[context.branch-deploy]
-command = "npm run build"
-
-[context.branch-deploy.environment]
-HUGO_VERSION = "0.104.2"
-
-[context.next.environment]
-HUGO_ENABLEGITINFO = "true"
+[build.environment]
+HUGO_VERSION = "0.139.2"
+GO_VERSION = "1.23.3"

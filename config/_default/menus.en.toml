@@ -1,0 +1,30 @@
+############# English navigation ##############
+
+# main menu
+[[main]]
+name = "Quiénes somos"
+url = "/"
+weight = 1
+
+[[main]]
+name = "Servicios"
+url = "/servicios"
+weight = 2
+
+[[main]]
+name = "Clientes"
+url = "/clientes"
+weight = 3
+
+
+# footer menu
+[[footer]]
+name = "Quiénes somos"
+url = "/"
+weight = 1
+
+[[footer]]
+name = "Contacto"
+url = "/contact"
+weight = 2
+

@@ -1,27 +1,17 @@
-# Compiled Object files, Static and Dynamic libs (Shared Objects)
-*.o
-*.a
-*.so
-
-# Folders
-_obj
-_test
-
-# Architecture specific extensions/prefixes
-*.[568vq]
-[568vq].out
-
-*.cgo1.go
-*.cgo2.c
-_cgo_defun.c
-_cgo_gotypes.go
-_cgo_export.*
-
-_testmain.go
-
-*.exe
-*.test
-
-node_modules/
+Thumbs.db
 .DS_Store
-.Rproj.user
+.dist
+.tmp
+.lock
+.sass-cache
+npm-debug.log
+node_modules
+builds
+package-lock.json
+public
+resources
+.hugo_build.lock
+jsconfig.json
+hugo_stats.json
+go.sum
+yarn.lock

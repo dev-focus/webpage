@@ -1,0 +1,24 @@
+{
+  "main": [
+    {
+      "name": "facebook",
+      "icon": "fab fa-facebook",
+      "link": "https://www.facebook.com/UYFocus/"
+    },
+    {
+      "name": "instagram",
+      "icon": "fab fa-instagram",
+      "link": "https://www.instagram.com/uyfocus/"
+    },
+        {
+      "name": "whatsapp",
+      "icon": "fab fa-whatsapp",
+      "link": "https://api.whatsapp.com/send?phone=59899316063"
+    },
+        {
+      "name": "comment",
+      "icon": "fa fa-envelope",
+      "link": "mailto:contacto@focusuy.org"
+    }
+  ]
+}
