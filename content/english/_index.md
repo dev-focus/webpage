@@ -20,9 +20,9 @@ features:
       - "Definición de grupos según intereses"
       - "Seguimiento periódico de percepciones"
     button:
-      enable: false
-      label: ""
-      link: "#"
+      enable: true
+      label: "Más"
+      link: "/servicios"
 
   - title: "Grupos Focales"
     image: "/images/gd.png"
@@ -32,9 +32,9 @@ features:
       - "Reclutamiento y logística"
       - "Análisis de imaginarios y narrativas"
     button:
-      enable: false
-      label: ""
-      link: "#"
+      enable: true
+      label: "Más"
+      link: "/servicios"
 
   - title: "Monitoreo de Medios"
     image: "/images/monitor.png"
@@ -44,9 +44,9 @@ features:
       - "Prensa escrita y portales"
       - "TV y streamings"
     button:
-      enable: false
-      label: ""
-      link: "#"
+      enable: true
+      label: "Más"
+      link: "/servicios"
 
   - title: "Monitoreo de Redes Sociales"
     image: "/images/redes.png"
@@ -56,9 +56,9 @@ features:
       - "Identificación de actores relevantes"
       - "Métricas de alcance y engagement"
     button:
-      enable: false
-      label: ""
-      link: "#"
+      enable: true
+      label: "Más"
+      link: "/servicios"
 
   - title: "Observatorio de Streamings"
     image: "/images/streamings.png"
@@ -68,9 +68,9 @@ features:
       - "Horas transmitidas por canal"
       - "Ranking de programas según audiencias"
     button:
-      enable: false
-      label: ""
-      link: "#"
+      enable: true
+      label: "Más"
+      link: "/servicios"
 
   - title: "Tableros de Indicadores"
     image: "/images/tableros.png"
@@ -80,9 +80,9 @@ features:
       - "Actualizaciones periódicas"
       - "Diseño a medida según objetivos"
     button:
-      enable: false
-      label: ""
-      link: "#"
+      enable: true
+      label: "Más"
+      link: "/servicios"
 
   - title: "Asesoramiento Metodológico"
     image: "/images/asesoramiento.png"
