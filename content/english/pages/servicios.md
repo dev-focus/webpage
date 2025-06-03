@@ -49,7 +49,7 @@ Los grupos focales son una herramienta poderosa para comprender en profundidad q
 Se trata de una conversación guiada por un moderador especializado, donde un grupo reducido de personas -reunidas por compartir características clave- intercambia opiniones, percepciones y experiencias en un entorno cuidado y dinámico. 
 La conversación revela tensiones, matices, sentidos compartidos y contradicciones que orientan las conductas sociales. 
 ¿Qué imaginarios sociales se construyen en torno a determinadas iniciativas, productos o instituciones? ¿Qué emociones, percepciones y sentidos despiertan las acciones comunicacionales o políticas públicas implementadas? ¿Qué argumentos y narrativas esbozan determinados sectores estratégicos o grupos sociales? 
-En FOCUS nos encargamos de todas las etapas necesarias para implementar esta técnica de forma rigurosa y eficiente. Trabajaremos en conjunto para definir el perfil poblacional de interés, nos ocuparemos del reclutamiento de participantes, la organización logística de la convocatoria y la moderación profesional de cada grupo focal. 
+En **FOCUS** nos encargamos de todas las etapas necesarias para implementar esta técnica de forma rigurosa y eficiente. Trabajaremos en conjunto para definir el perfil poblacional de interés, nos ocuparemos del reclutamiento de participantes, la organización logística de la convocatoria y la moderación profesional de cada grupo focal. 
 
 <hr>
 
