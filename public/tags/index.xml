@@ -2,45 +2,45 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Focus</title>
-    <link>http://localhost:1313/tags/</link>
+    <link>https://focusuy.org/tags/</link>
     <description>Recent content in Tags on Focus</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 04 Apr 2022 05:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://focusuy.org/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Nextjs</title>
-      <link>http://localhost:1313/tags/nextjs/</link>
+      <link>https://focusuy.org/tags/nextjs/</link>
       <pubDate>Mon, 04 Apr 2022 05:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/nextjs/</guid>
+      <guid>https://focusuy.org/tags/nextjs/</guid>
       <description></description>
     </item>
     <item>
       <title>Silicon</title>
-      <link>http://localhost:1313/tags/silicon/</link>
+      <link>https://focusuy.org/tags/silicon/</link>
       <pubDate>Mon, 04 Apr 2022 05:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/silicon/</guid>
+      <guid>https://focusuy.org/tags/silicon/</guid>
       <description></description>
     </item>
     <item>
       <title>Software</title>
-      <link>http://localhost:1313/tags/software/</link>
+      <link>https://focusuy.org/tags/software/</link>
       <pubDate>Mon, 04 Apr 2022 05:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/software/</guid>
+      <guid>https://focusuy.org/tags/software/</guid>
       <description></description>
     </item>
     <item>
       <title>Tailwind</title>
-      <link>http://localhost:1313/tags/tailwind/</link>
+      <link>https://focusuy.org/tags/tailwind/</link>
       <pubDate>Mon, 04 Apr 2022 05:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/tailwind/</guid>
+      <guid>https://focusuy.org/tags/tailwind/</guid>
       <description></description>
     </item>
     <item>
       <title>Technology</title>
-      <link>http://localhost:1313/tags/technology/</link>
+      <link>https://focusuy.org/tags/technology/</link>
       <pubDate>Mon, 04 Apr 2022 05:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/technology/</guid>
+      <guid>https://focusuy.org/tags/technology/</guid>
       <description></description>
     </item>
   </channel>

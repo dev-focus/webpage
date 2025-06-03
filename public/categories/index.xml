@@ -2,45 +2,45 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Focus</title>
-    <link>http://localhost:1313/categories/</link>
+    <link>https://focusuy.org/categories/</link>
     <description>Recent content in Categories on Focus</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 04 Apr 2022 05:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://focusuy.org/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Application</title>
-      <link>http://localhost:1313/categories/application/</link>
+      <link>https://focusuy.org/categories/application/</link>
       <pubDate>Mon, 04 Apr 2022 05:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/categories/application/</guid>
+      <guid>https://focusuy.org/categories/application/</guid>
       <description></description>
     </item>
     <item>
       <title>Architecture</title>
-      <link>http://localhost:1313/categories/architecture/</link>
+      <link>https://focusuy.org/categories/architecture/</link>
       <pubDate>Mon, 04 Apr 2022 05:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/categories/architecture/</guid>
+      <guid>https://focusuy.org/categories/architecture/</guid>
       <description></description>
     </item>
     <item>
       <title>Data</title>
-      <link>http://localhost:1313/categories/data/</link>
+      <link>https://focusuy.org/categories/data/</link>
       <pubDate>Mon, 04 Apr 2022 05:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/categories/data/</guid>
+      <guid>https://focusuy.org/categories/data/</guid>
       <description></description>
     </item>
     <item>
       <title>Software</title>
-      <link>http://localhost:1313/categories/software/</link>
+      <link>https://focusuy.org/categories/software/</link>
       <pubDate>Mon, 04 Apr 2022 05:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/categories/software/</guid>
+      <guid>https://focusuy.org/categories/software/</guid>
       <description></description>
     </item>
     <item>
       <title>Technology</title>
-      <link>http://localhost:1313/categories/technology/</link>
+      <link>https://focusuy.org/categories/technology/</link>
       <pubDate>Mon, 04 Apr 2022 05:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/categories/technology/</guid>
+      <guid>https://focusuy.org/categories/technology/</guid>
       <description></description>
     </item>
   </channel>

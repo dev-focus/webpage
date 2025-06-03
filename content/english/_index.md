@@ -1,4 +1,5 @@
 ---
+
 # Banner
 banner:
   title: "Investigación social"
@@ -11,64 +12,88 @@ banner:
 
 # Features
 features:
-  - title: "Monitoreo de Redes Sociales"
-    image: "/images/servicios-03.png"
-    content: "Seguimiento activo de menciones que se vierten en las redes sociales asociados a un determinado concepto, marca, idea o persona a partir de la generación de datos estadísticos relevantes para el diseño de estrategias y campañas."
+  - title: "Paneles Sesgados"
+    image: "/images/paneles.png"
+    content: "Recogemos percepciones espontáneas (texto y audio) de grupos poblacionales específicos en tiempo real a través de WhatsApp, permitiendo un análisis dinámico de argumentos y opiniones a lo largo del tiempo."
     bulletpoints:
-      - "X"
-      - "Faceboook"
-      - "Instagram"
+      - "Respuestas en texto y audio"
+      - "Definición de grupos según intereses"
+      - "Seguimiento periódico de percepciones"
     button:
       enable: false
       label: ""
       link: "#"
 
-  - title: "Inteligencia Artificial aplicada a la investigación social"
-    image: "/images/servicios-04.png"
-    content: "Potenciar la investigación social al utilizar capacidades avanzadas de análisis,
-automatización y predicción."
+  - title: "Grupos Focales"
+    image: "/images/gd.png"
+    content: "Moderamos conversaciones guiadas con grupos reducidos que comparten características clave, revelando tensiones, matices y narrativas en torno a iniciativas, productos o políticas."
     bulletpoints:
-      - "Automatización de procesos"
-      - "Extracción, generación y análisis de grandes volumnes de datos textuales"
+      - "Moderación profesional"
+      - "Reclutamiento y logística"
+      - "Análisis de imaginarios y narrativas"
     button:
       enable: false
-      label: "Get Started Now"
-      link: "https://github.com/zeon-studio/hugoplate"
+      label: ""
+      link: "#"
 
-  - title: "Testeo de impactos de campaña"
-    image: "/images/servicios-07.png"
-    content: "Medición de impacto de campañas publicitarias, políticas o de marketing en la población, vinculadas a una determinada idea, persona o concepto."
-    bulletpoints:
-    button:
-    
-  - title: "Relevamiento de opinión pública"
-    image: "/images/servicios-05.png"
-    content: "Diseño y aplicación de diversas técnicas (grupos de discusión, encuestas y paneles por Whatsapp) para relevar creencias, valores, actitudes y sentimientos."
-    bulletpoints:
-      - "Grupos de discusión tradicionales"
-      - "Encuestas por Whatsapp"
-    button:
-      enable: false
-      label: ""
-      link: ""
-      
   - title: "Monitoreo de Medios"
-    image: "/images/servicios-02.png"
-    content: "Seguimiento de lo que se habla en radio, prensa y canales de YouTube/Twitch locales,
-generación de métricas, análisis y visualizaciónes. Detección de publicidad."
+    image: "/images/monitor.png"
+    content: "Monitoreo diario de radios nacionales y locales, prensa digital y noticieros de TV, con transcripción automática y minería de texto para identificar tendencias, actores clave y marcos narrativos."
     bulletpoints:
-      - "Radios nacionales"
-      - "Prensa escrita: diarios, portales, semanarios"
-      - "Youtube, Twitch"
+      - "Radios nacionales y locales"
+      - "Prensa escrita y portales"
+      - "TV y streamings"
     button:
       enable: false
       label: ""
-      link: ""
-      
-  - title: "Relevamiento y análisis de datos"
-    image: "/images/servicios-01.png"
-    content: "Generación, procesamiento y sistematización de información, tanto cuantitativa
-como cualtitativa, vinculada a un objetivo o interés específico (investigación,
-académico o particular)."
+      link: "#"
+
+  - title: "Monitoreo de Redes Sociales"
+    image: "/images/redes.png"
+    content: "Análisis de conversaciones en X, Instagram, Facebook, TikTok y YouTube mediante APIs y scraping, combinando métricas cuantitativas (alcance, engagement) y cualitativas (tono, polarización) para una visión completa."
+    bulletpoints:
+      - "Detección de tendencias y hashtags"
+      - "Identificación de actores relevantes"
+      - "Métricas de alcance y engagement"
+    button:
+      enable: false
+      label: ""
+      link: "#"
+
+  - title: "Observatorio de Streamings"
+    image: "/images/streamings.png"
+    content: "Reportes por hora, diario, semanal o mensual sobre performance de canales de YouTube en vivo en Uruguay, con métricas personalizables para comparar rendimientos y posicionamiento."
+    bulletpoints:
+      - "Vistas en vivo por hora y día"
+      - "Horas transmitidas por canal"
+      - "Ranking de programas según audiencias"
+    button:
+      enable: false
+      label: ""
+      link: "#"
+
+  - title: "Tableros de Indicadores"
+    image: "/images/tableros.png"
+    content: "Dashboards personalizados que integran datos numéricos, espaciales y textuales, ofreciendo visualizaciones claras y actualizadas para la toma de decisiones y difusión a públicos internos o externos."
+    bulletpoints:
+      - "Indicadores cuantitativos y cualitativos"
+      - "Actualizaciones periódicas"
+      - "Diseño a medida según objetivos"
+    button:
+      enable: false
+      label: ""
+      link: "#"
+
+  - title: "Asesoramiento Metodológico"
+    image: "/images/asesoramiento.png"
+    content: "Orientación en el diseño de estudios cualitativos y cuantitativos, adaptando métodos y estrategias de recolección para garantizar resultados precisos y relevantes."
+    bulletpoints:
+      - "Diseño de relevamientos"
+      - "Selección de enfoques cuali/cuanti"
+      - "Informes interactivos y en tiempo real"
+    button:
+      enable: true
+      label: "Más"
+      link: "/servicios"
 
 ---
