@@ -5,6 +5,7 @@ baseURL = "https://focusuy.org"
 title = "Focus"
 # Your theme name
 theme = "hugoplate"
+timeout = "120s"
 # Default time zone for time stamps; use any valid tz database name: https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List
 timeZone = "America/New_York"
 # post excerpt
