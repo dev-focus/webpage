@@ -7,7 +7,8 @@ Thumbs.db
 npm-debug.log
 node_modules
 builds
-package-lock.json
+# Commit lockfile for reproducible CI builds
+# package-lock.json
 public
 resources
 .hugo_build.lock

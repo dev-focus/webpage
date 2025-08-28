@@ -47,7 +47,13 @@ jobs:
         run: npm run project-setup
 
       - name: Install npm dependencies
-        run: npm ci
+        run: |
+          if [ -f package-lock.json ]; then
+            npm ci
+          else
+            echo "package-lock.json not found; falling back to npm install"
+            npm install
+          fi
 
       - name: Configure Pages
         uses: actions/configure-pages@v5
