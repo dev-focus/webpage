@@ -29,6 +29,16 @@ url = "/"
 weight = 1
 
 [[footer]]
+name = "Servicios"
+url = "/servicios"
+weight = 2
+
+[[footer]]
+name = "Clientes"
+url = "/clientes"
+weight = 3
+
+[[footer]]
 name = "Contacto"
 url = "/contact"
-weight = 2
+weight = 4

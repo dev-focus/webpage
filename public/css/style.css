@@ -1858,6 +1858,9 @@ input#nav-toggle:checked ~ #nav-menu {
 .order-3 {
   order: 3;
 }
+.m-0 {
+  margin: 0px;
+}
 .m-3 {
   margin: 0.75rem;
 }
@@ -1895,6 +1898,9 @@ input#nav-toggle:checked ~ #nav-menu {
 .inline-flex {
   display: inline-flex;
 }
+.grid {
+  display: grid;
+}
 .hidden {
   display: none;
 }
@@ -1916,6 +1922,9 @@ input#nav-toggle:checked ~ #nav-menu {
 .cursor-pointer {
   cursor: pointer;
 }
+.grid-cols-1 {
+  grid-template-columns: repeat(1, minmax(0, 1fr));
+}
 .items-center {
   align-items: center;
 }
@@ -1924,6 +1933,13 @@ input#nav-toggle:checked ~ #nav-menu {
 }
 .justify-between {
   justify-content: space-between;
+}
+.gap-x-10 {
+  -moz-column-gap: 2.5rem;
+       column-gap: 2.5rem;
+}
+.gap-y-2 {
+  row-gap: 0.5rem;
 }
 .gap-y-8 {
   row-gap: 2rem;
@@ -2029,6 +2045,10 @@ input#nav-toggle:checked ~ #nav-menu {
 .text-lg {
   font-size: 1.125rem;
   line-height: 1.75rem;
+}
+.text-sm {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
 }
 .text-xl {
   font-size: 1.25rem;
@@ -3489,6 +3509,9 @@ b {
   letter-spacing: 0.04em;
   font-size: 0.9rem; }
 
+.footer-nav-link {
+  padding: 0.35rem 0; }
+
 @media (min-width: 768px) {
 
   .md\:col-5 {
@@ -3678,6 +3701,10 @@ b {
 
   .lg\:\!max-w-\[800px\] {
     max-width: 800px !important;
+  }
+
+  .lg\:grid-cols-2 {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
   .lg\:space-x-1 > :not([hidden]) ~ :not([hidden]) {

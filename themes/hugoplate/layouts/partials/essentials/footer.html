@@ -10,10 +10,11 @@
         </a>
       </div>
       <div class="lg:col-6 mb-8 text-center lg:mb-0">
-        <ul>
+        <ul class="grid grid-cols-1 gap-x-10 gap-y-2 text-center lg:grid-cols-2 lg:text-left">
           {{ range site.Menus.footer }}
-            <li class="m-3 inline-block">
+            <li class="m-0">
               <a
+                class="nav-link footer-nav-link"
                 {{ if findRE `^http` .URL }}
                   target="_blank" rel="noopener"
                 {{ end }}
@@ -49,7 +50,7 @@
   </div>
   <div class="border-border dark:border-darkmode-border border-t py-7">
     <div class="text-light dark:text-darkmode-light container text-center">
-      <p>
+      <p class="text-sm">
         {{ site.Params.copyright | markdownify }}
       </p>
     </div>
