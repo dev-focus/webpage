@@ -15,7 +15,7 @@ services_slider:
   speed: "150"
 ---
 
-<br>
+<hr class="section-gap">
 
 {{< image
     src="images/paneles.png"
