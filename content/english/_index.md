@@ -12,7 +12,7 @@ banner:
 
 # Features
 features:
-  - title: "Paneles de Opinión Pública"
+  - title: "Paneles de opinión pública"
     image: "/images/paneles.png"
     content: "Recogemos percepciones espontáneas (texto y audio) de grupos poblacionales específicos en tiempo real a través de WhatsApp, permitiendo un análisis dinámico de argumentos y opiniones a lo largo del tiempo."
     bulletpoints:
@@ -24,7 +24,7 @@ features:
       label: "Más"
       link: "/servicios/#paneles-op"
 
-  - title: "Grupos Focales"
+  - title: "Grupos focales"
     image: "/images/gd.png"
     content: "Moderamos conversaciones guiadas con grupos reducidos que comparten características clave, revelando tensiones, matices y narrativas en torno a iniciativas, productos o políticas."
     bulletpoints:
@@ -36,7 +36,7 @@ features:
       label: "Más"
       link: "/servicios/#grupos-focales"
 
-  - title: "Monitoreo de Medios"
+  - title: "Monitoreo de medios"
     image: "/images/monitor.png"
     content: "Monitoreo diario de radios nacionales y locales, prensa digital y noticieros de TV, con transcripción automática y minería de texto para identificar tendencias, actores clave y marcos narrativos."
     bulletpoints:
@@ -48,7 +48,7 @@ features:
       label: "Más"
       link: "/servicios/#monitoreo-medios"
 
-  - title: "Monitoreo de Redes Sociales"
+  - title: "Monitoreo de redes sociales"
     image: "/images/redes.png"
     content: "Análisis de conversaciones en X, Instagram, Facebook, TikTok y YouTube mediante APIs y scraping, combinando métricas cuantitativas (alcance, engagement) y cualitativas (tono, polarización) para una visión completa."
     bulletpoints:
@@ -60,7 +60,7 @@ features:
       label: "Más"
       link: "/servicios/#monitoreo-redes"
 
-  - title: "Observatorio de Streamings"
+  - title: "Observatorio de streamings"
     image: "/images/streamings.png"
     content: "Reportes por hora, diario, semanal o mensual sobre performance de canales de YouTube en vivo en Uruguay, con métricas personalizables para comparar rendimientos y posicionamiento."
     bulletpoints:
@@ -72,7 +72,7 @@ features:
       label: "Más"
       link: "/servicios/#observatorio-streamings"
 
-  - title: "Tableros de Indicadores"
+  - title: "Tableros de indicadores"
     image: "/images/tableros.png"
     content: "Dashboards personalizados que integran datos numéricos, espaciales y textuales, ofreciendo visualizaciones claras y actualizadas para la toma de decisiones y difusión a públicos internos o externos."
     bulletpoints:
@@ -84,7 +84,7 @@ features:
       label: "Más"
       link: "/servicios/#tableros-indicadores"
 
-  - title: "Asesoramiento Metodológico"
+  - title: "Asesoramiento metodológico"
     image: "/images/asesoramiento.png"
     content: "Orientación en el diseño de estudios cualitativos y cuantitativos, adaptando métodos y estrategias de recolección para garantizar resultados precisos y relevantes."
     bulletpoints:

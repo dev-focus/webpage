@@ -25,7 +25,7 @@ services_slider:
     class="service-image"
 >}}
 
-### Paneles de Opinión Pública {#paneles-op}
+### Paneles de opinión pública {#paneles-op}
 Mediante mensajería instantánea, como Whatsapp, recabamos las  percepciones de grupos poblacionales específicos, de forma ágil y directa, en tiempo real, con respuestas espontáneas (en formato texto y/o audio), lo que nos permite comprender  argumentos y opiniones clave sobre diferentes temáticas a lo largo del tiempo.
 Los grupos se definen en función de tus intereses. A diferencia de las encuestas tradicionales, este enfoque está orientado a explorar en profundidad a grupos claves, estratégicos o de interés particular para la toma de decisiones.
 El análisis de estas respuestas permite indagar con profundidad percepciones, representaciones sociales e imaginarios colectivos que los diferentes segmentos construyen en torno a determinados temas, actores o situaciones. 
@@ -58,7 +58,7 @@ En **FOCUS** nos encargamos de todas las etapas necesarias para implementar esta
     class="service-image"
 >}}
 
-### Informes de monitoreo de medios de comunicación tradicionales (Radio, prensa y televisión) {#monitoreo-medios}
+### Informes de monitoreo de medios de comunicación tradicionales (radio, prensa y televisión) {#monitoreo-medios}
 Nuestros informes de medios ofrecen una radiografía precisa y actualizada del clima informativo y la conversación pública en el país sobre un tema de interés para tu empresa u organización
 Estos informes se construyen a partir de un sistema de escucha de alta precisión, desarrollado por nuestros equipos, que monitorea diariamente radios nacionales, locales, noticieros centrales de televisión y streamings, transcribiendo su contenido en tiempo real.  A esto se suma la recuperación continua de prensa digital nacional y local. 
 A partir de esta base de datos robusta y en constante actualización, aplicamos técnicas de minería de texto y análisis de contenido, para identificar tendencias, temas emergentes, actores clave, climas de opinión y marcos narrativos predominantes. El resultado: un informe que te permite entender cómo se trata el tema de tu interés en los medios de comunicación nacionales y locales, cómo se configura el debate público en torno a dicho tema y hacia dónde se mueve la conversación social.
@@ -74,7 +74,7 @@ Una herramienta clave para medir el impacto de campañas comunicativas, evaluar 
     class="service-image"
 >}}
 
-### Informe de monitoreo de redes sociales {#monitoreo-redes}
+### Informes de monitoreo de redes sociales {#monitoreo-redes}
 Nuestros informes de monitoreo en redes sociales brindan un panorama detallado y actualizado sobre las conversaciones digitales en plataformas clave como X (Twitter), Instagram, Facebook, TikTok y YouTube.
 A través de herramientas especializadas de recolección (APIs y scrapeo web) y análisis de datos, identificamos temas emergentes, actores relevantes, tendencias discursivas, hashtags predominantes y dinámicas de viralización. Este monitoreo permite comprender cómo se posicionan determinadas temáticas, marcas o instituciones en el ecosistema digital, así como anticipar posibles escenarios para una comunicación estratégica.
 Integramos métricas cuantitativas (alcance, redes de interacción, frecuencia, crecimiento, engagement) con análisis cualitativos (narrativas, tono, polarización, discursos predominantes) para ofrecer un diagnóstico riguroso y contextualizado.
