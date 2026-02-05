@@ -12,7 +12,7 @@ banner:
 
 # Features
 features:
-  - title: "Paneles Sesgados"
+  - title: "Paneles de Opinión Pública"
     image: "/images/paneles.png"
     content: "Recogemos percepciones espontáneas (texto y audio) de grupos poblacionales específicos en tiempo real a través de WhatsApp, permitiendo un análisis dinámico de argumentos y opiniones a lo largo del tiempo."
     bulletpoints:
@@ -22,7 +22,7 @@ features:
     button:
       enable: true
       label: "Más"
-      link: "/servicios/#paneles-sesgados"
+      link: "/servicios/#paneles-op"
 
   - title: "Grupos Focales"
     image: "/images/gd.png"

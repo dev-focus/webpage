@@ -25,7 +25,7 @@ services_slider:
     class="service-image"
 >}}
 
-### Paneles sesgados {#paneles-sesgados}
+### Paneles de Opinión Pública {#paneles-op}
 Mediante mensajería instantánea, como Whatsapp, recabamos las  percepciones de grupos poblacionales específicos, de forma ágil y directa, en tiempo real, con respuestas espontáneas (en formato texto y/o audio), lo que nos permite comprender  argumentos y opiniones clave sobre diferentes temáticas a lo largo del tiempo.
 Los grupos se definen en función de tus intereses. A diferencia de las encuestas tradicionales, este enfoque está orientado a explorar en profundidad a grupos claves, estratégicos o de interés particular para la toma de decisiones.
 El análisis de estas respuestas permite indagar con profundidad percepciones, representaciones sociales e imaginarios colectivos que los diferentes segmentos construyen en torno a determinados temas, actores o situaciones. 
