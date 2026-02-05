@@ -1,21 +1,47 @@
 {{- $dir := .Get "dir" | default "images/gallery" -}}
+{{- $dataLogos := slice -}}
+{{- with site.Data.clientes -}}
+  {{- with .logos -}}
+    {{- $dataLogos = . -}}
+  {{- end -}}
+{{- end -}}
+{{- $useData := gt (len $dataLogos) 0 -}}
 {{- $images := resources.Match (printf "%s/*" $dir) -}}
 {{- $images = where $images "MediaType.MainType" "image" -}}
 <div class="client-logo-slider swiper">
   <div class="swiper-wrapper">
-    {{- range $images -}}
-      {{- $name := replace (replace .Name "-" " ") "_" " " -}}
-      {{- $name = replaceRE "\\.[^.]+$" "" $name -}}
-      <div class="swiper-slide">
-        <div
-          class="client-logo-slide flex items-center justify-center rounded-lg bg-theme-light px-6 py-6 dark:bg-darkmode-theme-light">
-          <img
-            class="client-logo-img h-16 w-auto object-contain"
-            src="{{ .RelPermalink }}"
-            alt="{{ $name | title }}"
-            loading="lazy" />
+    {{- if $useData -}}
+      {{- range $dataLogos -}}
+        {{- if ne .enabled false -}}
+          {{- $item := . -}}
+          {{- with resources.Get $item.file -}}
+            <div class="swiper-slide">
+              <div class="client-logo-slide">
+                <img
+                  class="client-logo-img"
+                  src="{{ .RelPermalink }}"
+                  alt="{{ $item.alt | default $item.name }}"
+                  loading="lazy" />
+              </div>
+            </div>
+          {{- end -}}
+        {{- end -}}
+      {{- end -}}
+    {{- else -}}
+      {{- range sort $images "Name" -}}
+        {{- $name := path.Base .Name -}}
+        {{- $name = replace (replace $name "-" " ") "_" " " -}}
+        {{- $name = replaceRE "\\.[^.]+$" "" $name -}}
+        <div class="swiper-slide">
+          <div class="client-logo-slide">
+            <img
+              class="client-logo-img"
+              src="{{ .RelPermalink }}"
+              alt="{{ $name | title }}"
+              loading="lazy" />
+          </div>
         </div>
-      </div>
+      {{- end -}}
     {{- end -}}
   </div>
   <button

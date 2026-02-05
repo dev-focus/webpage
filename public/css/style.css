@@ -3092,20 +3092,46 @@ input#nav-toggle:checked ~ #nav-menu {
   max-width: 68ch; }
 
 .client-logo-slide {
-  height: 7rem;
+  display: flex;
+  height: 8rem;
   width: 100%;
-  border-radius: var(--radius-lg);
+  align-items: center;
+  justify-content: center;
+  border-radius: 0.5rem;
+  --tw-bg-opacity: 1;
+  background-color: rgb(246 246 246 / var(--tw-bg-opacity, 1));
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  border-radius: 12px;
 }
+
+.client-logo-slide:is(.dark *) {
+  --tw-bg-opacity: 1;
+  background-color: rgb(34 34 34 / var(--tw-bg-opacity, 1));
+}
+
+.client-logo-slide {
+  border-radius: var(--radius-lg); }
 
 .client-logo-img {
+  height: 4rem;
   max-height: 100%;
-  max-width: 100%;
+  width: auto;
+  max-width: 90%;
+  -o-object-fit: contain;
+     object-fit: contain;
   filter: grayscale(100%);
-  transition: filter 200ms ease-out;
+  opacity: 0.88;
+  transition: filter 200ms ease-out, opacity 200ms ease-out, transform 200ms ease-out;
 }
 
-.client-logo-slide:hover .client-logo-img {
-  filter: grayscale(0%); }
+.client-logo-slide:hover .client-logo-img,
+.client-logo-slide:focus-within .client-logo-img {
+  filter: grayscale(0%);
+  opacity: 1;
+  transform: translateY(-1px); }
 
 .client-logo-slider {
   position: relative;
@@ -3380,6 +3406,12 @@ picture.service-image {
 .client-logo-slider .client-logo-next:hover {
   opacity: 1; }
 
+.client-logo-slider .client-logo-prev:focus-visible,
+.client-logo-slider .client-logo-next:focus-visible {
+  opacity: 1;
+  outline: 2px solid currentColor;
+  outline-offset: 2px; }
+
 .client-logo-slider:hover .client-logo-prev,
 .client-logo-slider:hover .client-logo-next {
   opacity: 1; }
@@ -3467,9 +3499,32 @@ b {
 @media (max-width: 1023px) {
   #nav-menu {
     margin-top: 0.5rem; }
+  .client-logo-slider .client-logo-prev,
+  .client-logo-slider .client-logo-next {
+    width: 34px;
+    height: 34px;
+    font-size: 22px;
+    color: #6b7280;
+    background: rgba(255, 255, 255, 0.78);
+    border-radius: 9999px;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px); }
+  .dark .client-logo-slider .client-logo-prev,
+  .dark .client-logo-slider .client-logo-next {
+    color: #d1d5db;
+    background: rgba(34, 34, 34, 0.78); }
+  .client-logo-slider .client-logo-prev {
+    left: 8px;
+    transform: translateY(-50%); }
+  .client-logo-slider .client-logo-next {
+    right: 8px;
+    transform: translateY(-50%); }
+  .client-logo-slider .client-logo-prev:hover,
+  .client-logo-slider .client-logo-next:hover {
+    transform: translateY(calc(-50% - 2px)); }
   .service-nav-container {
-    position: sticky;
-    top: calc(var(--header-height, 0px) + 0.5rem);
+    position: relative;
+    top: auto;
     z-index: 25; }
   .service-nav-title {
     margin-bottom: 0.35rem;

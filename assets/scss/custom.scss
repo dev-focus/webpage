@@ -37,18 +37,22 @@
 }
 
 .client-logo-slide {
-  @apply h-28 w-full;
+  @apply h-32 w-full flex items-center justify-center rounded-lg bg-theme-light px-5 py-4 dark:bg-darkmode-theme-light;
   border-radius: var(--radius-lg);
 }
 
 .client-logo-img {
-  @apply max-h-full max-w-full;
+  @apply h-16 w-auto max-h-full max-w-[90%] object-contain;
   filter: grayscale(100%);
-  transition: filter 200ms ease-out;
+  opacity: 0.88;
+  transition: filter 200ms ease-out, opacity 200ms ease-out, transform 200ms ease-out;
 }
 
-.client-logo-slide:hover .client-logo-img {
+.client-logo-slide:hover .client-logo-img,
+.client-logo-slide:focus-within .client-logo-img {
   filter: grayscale(0%);
+  opacity: 1;
+  transform: translateY(-1px);
 }
 
 .client-logo-slider {
@@ -297,6 +301,13 @@ picture.service-image {
   opacity: 1;
 }
 
+.client-logo-slider .client-logo-prev:focus-visible,
+.client-logo-slider .client-logo-next:focus-visible {
+  opacity: 1;
+  outline: 2px solid currentColor;
+  outline-offset: 2px;
+}
+
 .client-logo-slider:hover .client-logo-prev,
 .client-logo-slider:hover .client-logo-next {
   opacity: 1;
@@ -386,10 +397,42 @@ b {
     margin-top: 0.5rem;
   }
 
+  .client-logo-slider .client-logo-prev,
+  .client-logo-slider .client-logo-next {
+    width: 34px;
+    height: 34px;
+    font-size: 22px;
+    color: #6b7280;
+    background: rgba(255, 255, 255, 0.78);
+    border-radius: 9999px;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+  }
+
+  .dark .client-logo-slider .client-logo-prev,
+  .dark .client-logo-slider .client-logo-next {
+    color: #d1d5db;
+    background: rgba(34, 34, 34, 0.78);
+  }
+
+  .client-logo-slider .client-logo-prev {
+    left: 8px;
+    transform: translateY(-50%);
+  }
+
+  .client-logo-slider .client-logo-next {
+    right: 8px;
+    transform: translateY(-50%);
+  }
+
+  .client-logo-slider .client-logo-prev:hover,
+  .client-logo-slider .client-logo-next:hover {
+    transform: translateY(calc(-50% - 2px));
+  }
+
   .service-nav-container {
-    position: -webkit-sticky;
-    position: sticky;
-    top: calc(var(--header-height, 0px) + 0.5rem);
+    position: relative;
+    top: auto;
     z-index: 25;
   }
 

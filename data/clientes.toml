@@ -1,0 +1,125 @@
+[[logos]]
+name = "Presidencia de la República"
+file = "images/gallery/aa-presidencia.png"
+alt = "Logo de Presidencia de la República"
+enabled = true
+
+[[logos]]
+name = "UNFPA"
+file = "images/gallery/UNFPA_logo.svg"
+alt = "Logo de UNFPA"
+enabled = true
+
+[[logos]]
+name = "ANII"
+file = "images/gallery/ANII.png"
+alt = "Logo de ANII"
+enabled = true
+
+[[logos]]
+name = "LATU"
+file = "images/gallery/latu.png"
+alt = "Logo de LATU"
+enabled = true
+
+[[logos]]
+name = "Intendencia de Montevideo"
+file = "images/gallery/intendencia.png"
+alt = "Logo de la Intendencia de Montevideo"
+enabled = true
+
+[[logos]]
+name = "Junta Nacional de Drogas"
+file = "images/gallery/jnd.png"
+alt = "Logo de la Junta Nacional de Drogas"
+enabled = true
+
+[[logos]]
+name = "CUDECOOP"
+file = "images/gallery/cropped-cudecoop300ppi.png"
+alt = "Logo de CUDECOOP"
+enabled = true
+
+[[logos]]
+name = "Caritas Uruguay"
+file = "images/gallery/caritas.png"
+alt = "Logo de Caritas Uruguay"
+enabled = true
+
+[[logos]]
+name = "Gurises Unidos"
+file = "images/gallery/gurises-unidos.png"
+alt = "Logo de Gurises Unidos"
+enabled = true
+
+[[logos]]
+name = "El Abrojo"
+file = "images/gallery/Logo-El-Abrojo-213x300-2.png"
+alt = "Logo de El Abrojo"
+enabled = true
+
+[[logos]]
+name = "Facultad de Ciencias Sociales (Udelar)"
+file = "images/gallery/logo-fcs.png"
+alt = "Logo de la Facultad de Ciencias Sociales de Udelar"
+enabled = true
+
+[[logos]]
+name = "Facultad de Medicina (Udelar)"
+file = "images/gallery/Logo_fmed_2024.png"
+alt = "Logo de la Facultad de Medicina de Udelar"
+enabled = true
+
+[[logos]]
+name = "Instituto de Economia (IECON)"
+file = "images/gallery/iecon.jpg"
+alt = "Logo del Instituto de Economia"
+enabled = true
+
+[[logos]]
+name = "COPOLAD"
+file = "images/gallery/logo-COPOLAD.webp"
+alt = "Logo de COPOLAD"
+enabled = true
+
+[[logos]]
+name = "COPAGRAN"
+file = "images/gallery/logo-copagran-ok_horizontal_transparente.png"
+alt = "Logo de COPAGRAN"
+enabled = true
+
+[[logos]]
+name = "Amnistia Internacional Uruguay"
+file = "images/gallery/amnestyp.webp"
+alt = "Logo de Amnistia Internacional Uruguay"
+enabled = true
+
+[[logos]]
+name = "OpenDemocracy"
+file = "images/gallery/OpenDemocracy_Logo.png"
+alt = "Logo de OpenDemocracy"
+enabled = true
+
+[[logos]]
+name = "Fundacion Friedrich Ebert (FES)"
+file = "images/gallery/Logo-fes.svg.png"
+alt = "Logo de Fundacion Friedrich Ebert"
+enabled = true
+
+[[logos]]
+name = "MINT"
+file = "images/gallery/mint.png"
+alt = "Logo de MINT"
+enabled = true
+
+[[logos]]
+name = "No a la Baja"
+file = "images/gallery/noalabaja.png"
+alt = "Logo de No a la Baja"
+enabled = true
+
+[[logos]]
+name = "CIC"
+file = "images/gallery/cic_logo.png"
+alt = "Logo de CIC"
+enabled = true

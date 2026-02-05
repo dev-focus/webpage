@@ -14,4 +14,3 @@ draft: false
 <hr>
 
 {{< client-slider dir="images/gallery" >}}
-
