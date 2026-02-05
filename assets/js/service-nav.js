@@ -5,7 +5,9 @@
   if (!nav) return;
 
   const navWrap = document.querySelector("[data-service-nav-wrap]");
+  const navContainer = navWrap?.closest(".service-nav-container");
   const slider = document.querySelector(".service-slider");
+  const mobileQuery = window.matchMedia("(max-width: 1023px)");
 
   const links = Array.from(nav.querySelectorAll("a[href^=\"#\"]"));
   const targets = links
@@ -54,17 +56,54 @@
 
   targets.forEach((target) => observer.observe(target));
 
+  function updateMobileDock() {
+    if (!navWrap || !navContainer) return;
+    if (!mobileQuery.matches || !navWrap.classList.contains("is-visible")) {
+      navWrap.classList.remove("is-fixed");
+      navContainer.style.removeProperty("height");
+      navWrap.style.removeProperty("top");
+      navWrap.style.removeProperty("left");
+      navWrap.style.removeProperty("right");
+      navWrap.style.removeProperty("width");
+      return;
+    }
+
+    const headerHeight = parseFloat(
+      getComputedStyle(document.documentElement).getPropertyValue("--header-height"),
+    ) || 0;
+    const offset = headerHeight + 8;
+    const containerRect = navContainer.getBoundingClientRect();
+    const shouldFix = containerRect.top <= offset;
+    navWrap.classList.toggle("is-fixed", shouldFix);
+
+    if (shouldFix) {
+      navWrap.style.top = `${offset}px`;
+      navWrap.style.left = `${containerRect.left}px`;
+      navWrap.style.right = "auto";
+      navWrap.style.width = `${containerRect.width}px`;
+      navContainer.style.height = `${navWrap.getBoundingClientRect().height}px`;
+    } else {
+      navContainer.style.removeProperty("height");
+      navWrap.style.removeProperty("top");
+      navWrap.style.removeProperty("left");
+      navWrap.style.removeProperty("right");
+      navWrap.style.removeProperty("width");
+    }
+  }
+
   if (navWrap) {
     const updateNavVisibility = () => {
       if (!slider) {
         navWrap.classList.add("is-visible");
         updateIndicator();
+        updateMobileDock();
         return;
       }
       const rect = slider.getBoundingClientRect();
       const shouldShow = rect.bottom <= 120;
       navWrap.classList.toggle("is-visible", shouldShow);
       if (shouldShow) updateIndicator();
+      updateMobileDock();
     };
 
     updateNavVisibility();
