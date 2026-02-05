@@ -15,7 +15,7 @@ disableLanguages = [
 ] # example: ["fr"] for disable french language. see https://gohugo.io/content-management/multilingual/
 hasCJKLanguage = false #  If hasCJKLanguage true, auto-detect Chinese/Japanese/Korean Languages in the content. see: https://gohugo.io/getting-started/configuration/#hascjklanguage
 # default language
-defaultContentLanguage = 'en'
+defaultContentLanguage = 'es'
 # defaultContentLanguageInSubdir need to be true if you want to use the language code as a subdirectory and language specific 404 page
 defaultContentLanguageInSubdir = false
 
@@ -155,6 +155,15 @@ link = "js/search.js"
 lazy = false
 [[params.plugins.js]]
 link = "plugins/swiper/swiper-bundle.js"
+lazy = false
+[[params.plugins.js]]
+link = "js/client-slider.js"
+lazy = false
+[[params.plugins.js]]
+link = "js/service-nav.js"
+lazy = false
+[[params.plugins.js]]
+link = "js/header-scroll.js"
 lazy = false
 [[params.plugins.js]]
 link = "plugins/cookie.js"

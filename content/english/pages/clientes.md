@@ -13,6 +13,5 @@ draft: false
 
 <hr>
 
-{{< gallery dir="images/gallery" class="" height="1000" width="1000"  webp="true" command="Fit" option="" zoomable="false" >}}
-
+{{< client-slider dir="images/gallery" >}}
 

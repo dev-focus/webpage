@@ -29,7 +29,7 @@
     <!-- main navbar -->
     <ul
       id="nav-menu"
-      class="navbar-nav order-3 hidden lg:flex w-full pb-6 lg:order-1 lg:w-auto lg:space-x-2 lg:pb-0 xl:space-x-8">
+      class="navbar-nav order-3 hidden lg:flex w-full pb-6 lg:order-1 lg:w-auto lg:space-x-1 lg:pb-0 xl:space-x-6">
       {{ $currentPage := . }}
       {{ range site.Menus.main }}
         {{ $menuURL := .URL | absLangURL }}
@@ -96,9 +96,9 @@
         {{ end }}
       {{ end }}
       {{ if site.Params.navigation_button.enable }}
-        <li class="mt-4 inline-block lg:hidden">
+        <li class="mt-4 inline-block lg:hidden nav-contact-btn">
           <a
-            class="btn btn-outline-primary btn-sm"
+            class="btn btn-primary btn-primary-sm"
             href="{{ site.Params.navigation_button.link | relLangURL }}">
             {{ site.Params.navigation_button.label }}
           </a>
@@ -130,7 +130,7 @@
       {{ if site.Params.navigation_button.enable }}
         <a
           href="{{ site.Params.navigation_button.link | relLangURL }}"
-          class="btn btn-outline-primary btn-sm hidden lg:inline-block">
+          class="btn btn-primary btn-primary-sm hidden lg:inline-block">
           {{ site.Params.navigation_button.label }}
         </a>
       {{ end }}

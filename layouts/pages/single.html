@@ -1,0 +1,105 @@
+{{ define "main" }}
+  {{ partial "page-header" . }}
+
+  <section class="section-sm">
+    <div class="container">
+      <div class="row justify-center">
+        {{ if eq .RelPermalink "/servicios/" }}
+          <div class="col-12">
+            {{ with .Params.services_intro }}
+              <h3 class="mb-6 text-center">{{ . }}</h3>
+            {{ end }}
+            {{ with .Params.services_slider }}
+              {{ $dir := .dir | default "images/slider" }}
+              {{ $images := resources.Match (printf "%s/*.webp" $dir) }}
+              {{ if eq (len $images) 0 }}
+                {{ $images = resources.Match (printf "%s/*.png" $dir) }}
+              {{ end }}
+              {{ if eq (len $images) 0 }}
+                {{ $images = resources.Match (printf "%s/*.jpg" $dir) }}
+              {{ end }}
+              {{ if eq (len $images) 0 }}
+                {{ $images = resources.Match (printf "%s/*.jpeg" $dir) }}
+              {{ end }}
+              {{ if gt (len $images) 0 }}
+                <div class="swiper gallery-slider service-slider">
+                  <div class="swiper-wrapper">
+                    {{ range sort $images "Name" }}
+                      {{ $name := replace .Name "slide_" "" }}
+                      {{ $name = replaceRE "\\.[^.]+$" "" $name }}
+                      <div class="swiper-slide">
+                        <img
+                          src="{{ .RelPermalink }}"
+                          alt="{{ $name | title }}"
+                          loading="lazy" />
+                      </div>
+                    {{ end }}
+                  </div>
+                  <div class="swiper-button-prev"></div>
+                  <div class="swiper-button-next"></div>
+                </div>
+              {{ end }}
+            {{ end }}
+          </div>
+          <div class="lg:col-3 mb-8 lg:mb-0">
+            <div class="service-nav-container sticky top-32">
+              <div class="service-nav-wrap" data-service-nav-wrap>
+                <div class="service-nav-title sticky-title">Servicios</div>
+                <nav class="service-nav" data-service-nav>
+                  <ul class="space-y-2">
+                    <li>
+                      <a class="service-nav-link" href="#paneles-sesgados">
+                        Paneles sesgados
+                      </a>
+                    </li>
+                    <li>
+                      <a class="service-nav-link" href="#grupos-focales">
+                        Grupos focales
+                      </a>
+                    </li>
+                    <li>
+                      <a class="service-nav-link" href="#monitoreo-medios">
+                        Monitoreo de medios
+                      </a>
+                    </li>
+                    <li>
+                      <a class="service-nav-link" href="#monitoreo-redes">
+                        Monitoreo de redes
+                      </a>
+                    </li>
+                    <li>
+                      <a class="service-nav-link" href="#observatorio-streamings">
+                        Observatorio de streamings
+                      </a>
+                    </li>
+                    <li>
+                      <a class="service-nav-link" href="#tableros-indicadores">
+                        Tableros de indicadores
+                      </a>
+                    </li>
+                    <li>
+                      <a class="service-nav-link" href="#asesoramiento-metodologico">
+                        Asesoramiento metodológico
+                      </a>
+                    </li>
+                  </ul>
+                </nav>
+              </div>
+            </div>
+          </div>
+          <div class="lg:col-9">
+            <div class="content services-content">
+              {{ .Content }}
+            </div>
+          </div>
+        {{ else }}
+          <div class="lg:col-10">
+            <div class="content">
+              {{ .Content }}
+            </div>
+          </div>
+        {{ end }}
+      </div>
+    </div>
+  </section>
+{{ end }}

@@ -1,0 +1,33 @@
+{{- $dir := .Get "dir" | default "images/gallery" -}}
+{{- $images := resources.Match (printf "%s/*" $dir) -}}
+{{- $images = where $images "MediaType.MainType" "image" -}}
+<div class="client-logo-slider swiper">
+  <div class="swiper-wrapper">
+    {{- range $images -}}
+      {{- $name := replace (replace .Name "-" " ") "_" " " -}}
+      {{- $name = replaceRE "\\.[^.]+$" "" $name -}}
+      <div class="swiper-slide">
+        <div
+          class="client-logo-slide flex items-center justify-center rounded-lg bg-theme-light px-6 py-6 dark:bg-darkmode-theme-light">
+          <img
+            class="client-logo-img h-16 w-auto object-contain"
+            src="{{ .RelPermalink }}"
+            alt="{{ $name | title }}"
+            loading="lazy" />
+        </div>
+      </div>
+    {{- end -}}
+  </div>
+  <button
+    class="client-logo-prev"
+    type="button"
+    aria-label="Clientes anteriores">
+    <i class="fa fa-chevron-left"></i>
+  </button>
+  <button
+    class="client-logo-next"
+    type="button"
+    aria-label="Clientes siguientes">
+    <i class="fa fa-chevron-right"></i>
+  </button>
+</div>

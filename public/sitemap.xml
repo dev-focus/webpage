@@ -2,82 +2,24 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://focusuy.org/</loc>
-    <lastmod>2022-04-04T05:00:00+00:00</lastmod>
+    <loc>http://localhost:1313/</loc>
   </url><url>
-    <loc>https://focusuy.org/categories/application/</loc>
-    <lastmod>2022-04-04T05:00:00+00:00</lastmod>
+    <loc>http://localhost:1313/authors/</loc>
   </url><url>
-    <loc>https://focusuy.org/categories/architecture/</loc>
-    <lastmod>2022-04-04T05:00:00+00:00</lastmod>
+    <loc>http://localhost:1313/blog/</loc>
   </url><url>
-    <loc>https://focusuy.org/blog/</loc>
-    <lastmod>2022-04-04T05:00:00+00:00</lastmod>
+    <loc>http://localhost:1313/categories/</loc>
   </url><url>
-    <loc>https://focusuy.org/categories/</loc>
-    <lastmod>2022-04-04T05:00:00+00:00</lastmod>
+    <loc>http://localhost:1313/clientes/</loc>
   </url><url>
-    <loc>https://focusuy.org/categories/data/</loc>
-    <lastmod>2022-04-04T05:00:00+00:00</lastmod>
+    <loc>http://localhost:1313/contact/</loc>
   </url><url>
-    <loc>https://focusuy.org/blog/post-1/</loc>
-    <lastmod>2022-04-04T05:00:00+00:00</lastmod>
+    <loc>http://localhost:1313/pages/</loc>
   </url><url>
-    <loc>https://focusuy.org/blog/post-2/</loc>
-    <lastmod>2022-04-04T05:00:00+00:00</lastmod>
+    <loc>http://localhost:1313/sections/</loc>
   </url><url>
-    <loc>https://focusuy.org/blog/post-3/</loc>
-    <lastmod>2022-04-04T05:00:00+00:00</lastmod>
+    <loc>http://localhost:1313/servicios/</loc>
   </url><url>
-    <loc>https://focusuy.org/blog/post-4/</loc>
-    <lastmod>2022-04-04T05:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://focusuy.org/tags/nextjs/</loc>
-    <lastmod>2022-04-04T05:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://focusuy.org/tags/silicon/</loc>
-    <lastmod>2022-04-04T05:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://focusuy.org/categories/software/</loc>
-    <lastmod>2022-04-04T05:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://focusuy.org/tags/software/</loc>
-    <lastmod>2022-04-04T05:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://focusuy.org/tags/</loc>
-    <lastmod>2022-04-04T05:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://focusuy.org/tags/tailwind/</loc>
-    <lastmod>2022-04-04T05:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://focusuy.org/categories/technology/</loc>
-    <lastmod>2022-04-04T05:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://focusuy.org/tags/technology/</loc>
-    <lastmod>2022-04-04T05:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://focusuy.org/authors/</loc>
-  </url><url>
-    <loc>https://focusuy.org/clientes/</loc>
-  </url><url>
-    <loc>https://focusuy.org/contact/</loc>
-  </url><url>
-    <loc>https://focusuy.org/elements/</loc>
-  </url><url>
-    <loc>https://focusuy.org/authors/john-doe/</loc>
-  </url><url>
-    <loc>https://focusuy.org/about/</loc>
-  </url><url>
-    <loc>https://focusuy.org/pages/</loc>
-  </url><url>
-    <loc>https://focusuy.org/privacy-policy/</loc>
-  </url><url>
-    <loc>https://focusuy.org/authors/sam-wilson/</loc>
-  </url><url>
-    <loc>https://focusuy.org/sections/</loc>
-  </url><url>
-    <loc>https://focusuy.org/servicios/</loc>
-  </url><url>
-    <loc>https://focusuy.org/authors/william-jacob/</loc>
+    <loc>http://localhost:1313/tags/</loc>
   </url>
 </urlset>

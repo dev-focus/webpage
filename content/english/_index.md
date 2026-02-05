@@ -22,7 +22,7 @@ features:
     button:
       enable: true
       label: "Más"
-      link: "/servicios"
+      link: "/servicios/#paneles-sesgados"
 
   - title: "Grupos Focales"
     image: "/images/gd.png"
@@ -34,7 +34,7 @@ features:
     button:
       enable: true
       label: "Más"
-      link: "/servicios"
+      link: "/servicios/#grupos-focales"
 
   - title: "Monitoreo de Medios"
     image: "/images/monitor.png"
@@ -46,7 +46,7 @@ features:
     button:
       enable: true
       label: "Más"
-      link: "/servicios"
+      link: "/servicios/#monitoreo-medios"
 
   - title: "Monitoreo de Redes Sociales"
     image: "/images/redes.png"
@@ -58,7 +58,7 @@ features:
     button:
       enable: true
       label: "Más"
-      link: "/servicios"
+      link: "/servicios/#monitoreo-redes"
 
   - title: "Observatorio de Streamings"
     image: "/images/streamings.png"
@@ -70,7 +70,7 @@ features:
     button:
       enable: true
       label: "Más"
-      link: "/servicios"
+      link: "/servicios/#observatorio-streamings"
 
   - title: "Tableros de Indicadores"
     image: "/images/tableros.png"
@@ -82,7 +82,7 @@ features:
     button:
       enable: true
       label: "Más"
-      link: "/servicios"
+      link: "/servicios/#tableros-indicadores"
 
   - title: "Asesoramiento Metodológico"
     image: "/images/asesoramiento.png"
@@ -94,6 +94,6 @@ features:
     button:
       enable: true
       label: "Más"
-      link: "/servicios"
+      link: "/servicios/#asesoramiento-metodologico"
 
 ---
