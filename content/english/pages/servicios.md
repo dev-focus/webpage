@@ -95,7 +95,8 @@ Al igual que el resto de nuestros productos, los informes pueden adaptarse a dis
 Con el observatorio de streamings te podemos ofrecer reportes con diferente temporalidad: por hora, diario, semanal y mensual, para visualizar la performance de los canales de YouTube de Uruguay que realizan transmisiones en vivo.
 Para analizar la performance, se utilizan una serie de métricas cada vez que uno de los canales realiza una transmisión en vivo.
 Métricas: 
-- Promedio de vistas en vivo por hora por programa/canal - Promedio de horas transmitidas por día por canal 
+- Promedio de vistas en vivo por hora por programa/canal
+- Promedio de horas transmitidas por día por canal 
 - Promedio de vistas en vivo por día por canal 
 - Ranking de programas según vistas en vivo 
 La selección de estas métricas, así como la temporalidad de los reportes, puede ser adaptada a tus necesidades para aportar información que sea precisa, relevante y en sintonía con tus objetivos. La contratación de este servicio te permitirá no solamente hacer un seguimiento del rendimiento general de tu canal sino compararte con otros canales ya sea por temática u hora de transmisión.

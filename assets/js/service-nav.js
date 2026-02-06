@@ -23,6 +23,7 @@
   const targetIds = new Set(targets.map((target) => target.id));
   let currentActiveId = "";
   let idleHideTimer = null;
+  let suppressScrollspyUntil = 0;
 
   links.forEach((link) => {
     link.addEventListener("click", () => {
@@ -74,6 +75,7 @@
     const hashId = decodeURIComponent(window.location.hash.replace(/^#/, ""));
     if (!hashId || !targetIds.has(hashId)) return;
     setActive(hashId);
+    suppressScrollspyUntil = Date.now() + 900;
   }
 
   function releaseMobileDock() {
@@ -96,7 +98,7 @@
     const shouldShow = slider ? slider.getBoundingClientRect().bottom <= showThreshold : true;
 
     navWrap.classList.toggle("is-visible", shouldShow);
-    if (shouldShow && targets.length) {
+    if (shouldShow && targets.length && Date.now() >= suppressScrollspyUntil) {
       setActive(getActiveIdFromScroll(headerOffset));
     }
 
@@ -134,10 +136,21 @@
   function getActiveIdFromScroll(headerOffset) {
     if (!targets.length) return "";
 
+    const nearBottom =
+      window.scrollY + window.innerHeight >=
+      document.documentElement.scrollHeight - 8;
+    if (nearBottom) {
+      return targets[targets.length - 1].id;
+    }
+
     const navHeight = navWrap.classList.contains("is-fixed")
       ? Math.ceil(navWrap.getBoundingClientRect().height)
       : 0;
-    const probeY = headerOffset + navHeight + 20;
+    const stickyProbe = headerOffset + navHeight + 20;
+    const viewportProbe = Math.round(
+      window.innerHeight * (mobileQuery.matches ? 0.34 : 0.28),
+    );
+    const probeY = Math.max(stickyProbe, viewportProbe);
 
     let activeId = targets[0].id;
     for (const target of targets) {

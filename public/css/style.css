@@ -1901,17 +1901,11 @@ input#nav-toggle:checked ~ #nav-menu {
 .hidden {
   display: none;
 }
-.h-16 {
-  height: 4rem;
-}
 .h-6 {
   height: 1.5rem;
 }
 .w-\[30px\] {
   width: 30px;
-}
-.w-auto {
-  width: auto;
 }
 .w-full {
   width: 100%;
@@ -1954,9 +1948,6 @@ input#nav-toggle:checked ~ #nav-menu {
 .rounded-2xl {
   border-radius: 1rem;
 }
-.rounded-lg {
-  border-radius: 0.5rem;
-}
 .border-t {
   border-top-width: 1px;
 }
@@ -1986,14 +1977,6 @@ input#nav-toggle:checked ~ #nav-menu {
 .fill-current {
   fill: currentColor;
 }
-.object-contain {
-  -o-object-fit: contain;
-     object-fit: contain;
-}
-.px-6 {
-  padding-left: 1.5rem;
-  padding-right: 1.5rem;
-}
 .px-8 {
   padding-left: 2rem;
   padding-right: 2rem;
@@ -2005,10 +1988,6 @@ input#nav-toggle:checked ~ #nav-menu {
 .py-14 {
   padding-top: 3.5rem;
   padding-bottom: 3.5rem;
-}
-.py-6 {
-  padding-top: 1.5rem;
-  padding-bottom: 1.5rem;
 }
 .py-7 {
   padding-top: 1.75rem;
@@ -2091,9 +2070,6 @@ input#nav-toggle:checked ~ #nav-menu {
   --tw-gradient-to: rgb(34 34 34 / 0) var(--tw-gradient-to-position);
   --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
   --tw-gradient-to: #1c1c1c var(--tw-gradient-to-position);
-}
-.rounded-lg {
-  border-radius: 12px;
 }
 
 .search-wrapper {
